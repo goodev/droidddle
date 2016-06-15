@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="comment_quick_reply">
+        <item>Welcome on board!</item>
+        <item>Wow, That\'s just Awesome!</item>
+        <item>Fantastic. Love it.</item>
+        <item>Superb work!</item>
+        <item>So amazzzzzzing!</item>
+    </string-array>
+</resources>

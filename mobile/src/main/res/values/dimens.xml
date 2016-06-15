@@ -1,0 +1,86 @@
+<resources>
+    <integer name="shot_column">1</integer>
+
+    <dimen name="elevation">2dp</dimen>
+    <dimen name="progress_width">4dp</dimen>
+    <dimen name="status_bar_height">0dp</dimen>
+
+    <dimen name="refresh_menu_item_size">56dp</dimen>
+    <dimen name="refresh_menu_item_progress_indeterminate_size">32dp</dimen>
+
+    <dimen name="shot_image_min_height">140dp</dimen>
+    <dimen name="navdrawer_chosen_account_height">140dp</dimen>
+    <dimen name="navdrawer_width">260dp</dimen>
+    <dimen name="navdrawer_profile_image_size">40dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="user_detail_drawable_padding">16dp</dimen>
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_shot_action_button">16dp</dimen>
+    <dimen name="action_padding_8dp">8dp</dimen>
+    <dimen name="keyline_4dp">4dp</dimen>
+    <dimen name="keyline_1_minus_8dp">8dp</dimen>
+    <dimen name="keyline_1_minus_12dp">4dp</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+    <dimen name="keyline_2_minus_16dp">56dp</dimen>
+
+    <!-- body content -->
+    <dimen name="element_spacing_normal">8dp</dimen>
+    <dimen name="content_padding_normal">16dp</dimen>
+    <dimen name="text_size_xsmall">11sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="shot_action_text_size">18sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_diff_large_small">6sp</dimen>
+    <dimen name="speaker_image_size">40dp</dimen>
+    <dimen name="team_image_size">52dp</dimen>
+    <dimen name="comment_avatar_image_size">32dp</dimen>
+    <dimen name="shot_action_height">32dp</dimen>
+    <dimen name="shot_detail_image_height">280dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+
+    <dimen name="undo_bar_outer_margin">0dp</dimen>
+    <dimen name="home_filter_min_height">48dp</dimen>
+    <dimen name="shot_filter_popup_width">200dp</dimen>
+
+    <!-- 56 + 48 -->
+    <dimen name="toolbar_placeholder_height">104dp</dimen>
+
+
+    <!-- standard metrics -->
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_xlarge">48dp</dimen>
+    <dimen name="spacing_huge">64dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="display_4_text_size">112sp</dimen>
+    <dimen name="divider_height">1px</dimen>
+    <dimen name="dialog_corners">2dp</dimen>
+    <dimen name="padding_room_for_fab">88dp
+    </dimen> <!-- padding_normal + fab_size + padding_normal -->
+    <dimen name="fab_plus_single_padding">72dp</dimen> <!-- fab_size + padding_normal -->
+    <dimen name="half_fab_plus_single_padding">44dp</dimen> <!-- (fab_size / 2) + padding_normal -->
+
+    <!-- Z-axis elevations -->
+    <dimen name="z_app_bar">4dp</dimen>
+    <dimen name="z_card">2dp</dimen>
+    <dimen name="z_fab">6dp</dimen>
+    <dimen name="touch_raise">6dp</dimen>
+    <dimen name="touched_app_bar">8dp</dimen>
+    <dimen name="z_fab_over_touchable_app_bar">9dp</dimen>
+    <dimen name="z_drawer">16dp</dimen>
+    <dimen name="z_dialog">24dp</dimen>
+    <dimen name="comment_edit_height">48dp</dimen>
+
+</resources>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.goodev.droidddle.AboutActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/search_by_color"
+                android:enabled="true"
+                android:orderInCategory="110"
+                android:title="@string/switch_to_color_search"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/search_by_text"
+                android:enabled="true"
+                android:orderInCategory="110"
+                android:title="@string/switch_to_text_search"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+</menu>

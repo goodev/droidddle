@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LaunchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@drawable/launch_bg</item>
+        <item name="android:windowTitleSize">@dimen/toolbar_placeholder_height</item>
+        <item name="android:windowTitleStyle">@style/CustomWindowTitle</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_darker_color</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background_material_light</item>
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/primary_color</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/primary_darker_color</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/accent_color</item>
+
+        <item name="colorControlActivated">@color/red_accent_color</item>
+        <!--<item name="colorControlHighlight">@color/a100_accent_color</item>
+       You can also set colorControlNormal, colorControlActivated
+            colorControlHighlight, and colorSwitchThumbNormal. -->
+        <item name="cardViewStyle">@style/CardView.Light</item>
+        <item name="toolbarTheme">@style/ToolbarDefault</item>
+        <item name="filterBackgroundColor">@android:color/background_light</item>
+        <item name="navdrawerBackground">@color/navdrawer_background</item>
+        <item name="navdrawerTextColor">@color/navdrawer_text_color</item>
+        <item name="navdrawerIconTint">@color/navdrawer_icon_tint</item>
+        <item name="navdrawerTintColor">@color/primary_color</item>
+        <item name="alertDialogTheme">@style/dialog</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <style name="AppTheme.Default" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppThemeDark">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/status_bar_height"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:gravity="center_vertical"
+            android:elevation="2dp"
+            android:translationZ="2dp"
+            android:theme="?toolbarTheme"
+            app:popupTheme="@style/Theme.AppCompat.Light">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:scaleType="center"
+                    android:id="@+id/color_picker"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="8dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:id="@+id/color_minimum"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_minimum" />
+
+                <org.goodev.seekbar.SeekBarCompat
+                    android:id="@+id/rangebar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    app:seekColor="#AFF123"
+                    app:seekBackgroundColor="#FFCCCCCC"
+                    app:thumbColor="#CFF123"
+                    app:thumbAlpha="1.0"
+                    android:max="20"
+                    android:progress="0"
+
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="4dp" />
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/search_button"
+                    android:src="@drawable/ic_arrow_forward_white_24dp"
+                    android:scaleType="center"
+                    android:background="?selectableItemBackground"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="@dimen/navdrawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/drawer_menu_base" />
+    <!--  app:headerLayout="@layout/drawer_header" -->
+
+</android.support.v4.widget.DrawerLayout>

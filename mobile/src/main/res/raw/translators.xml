@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion changeDate="03/07/2015" versionName="Croatian">
+        <changelogtext>
+            <![CDATA[By <b><font color=#ff9800>Ivica Jeđud</font></b>]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ https://plus.google.com/+IvicaJeđud ]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="03/06/2015" versionName="Portuguese">
+        <changelogtext>
+            <![CDATA[By <b><font color=#ff9800>efrainmarinho12</font></b>]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ http://goodev.oneskyapp.com/account/profile/192220 ]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[By <b><font color=#ff9800>vih.nunes9</font></b>]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ http://goodev.oneskyapp.com/account/profile/182220 ]]>
+        </changelogtext>
+    </changelogversion>
+
+
+    <changelogversion changeDate="03/06/2014" versionName="Spanish">
+        <changelogtext>
+            <![CDATA[By <b><font color=#ff9800>gaigzean</font></b>]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ http://goodev.oneskyapp.com/account/profile/183234 ]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="03/10/2014" versionName="Russian">
+        <changelogtext>
+            <![CDATA[By <b><font color=#ff9800>DCOReARTs</font></b>]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ https://goodev.oneskyapp.com/account/profile/182115 ]]>
+        </changelogtext>
+    </changelogversion>
+
+    <!--
+    <changelogversion versionName="German (Deutsch)" changeDate="03/10/2014">
+         <changelogtext>
+             <![CDATA[By <b><font color=#ff9800>Jintao</font></b>]]>
+        </changelogtext>
+         <changelogtext>
+             <![CDATA[ http://osvya69.oneskyapp.com/account/profile/93027 ]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="Turkish (türk)" changeDate="03/10/2014">
+         <changelogtext>
+             <![CDATA[By <b><font color=#ff9800>Arif Güler</font></b>]]>
+        </changelogtext>
+         <changelogtext>
+             <![CDATA[ http://osvya69.oneskyapp.com/account/profile/42879 ]]>
+        </changelogtext>
+    </changelogversion>
+    
+    <changelogversion versionName="French (Français)" changeDate="03/10/2014">
+         <changelogtext>
+             <![CDATA[By <b><font color=#ff9800>Micks29</font></b> & <b><font color=#ff9800>crizalid8</font></b>]]>
+        </changelogtext>
+         <changelogtext>
+             <![CDATA[ http://forum.xda-developers.com/member.php?u=5178843 & http://forum.xda-developers.com/member.php?u=4517967]]>
+        </changelogtext>
+    </changelogversion>
+    <changelogversion versionName="Spanish (Español)" changeDate="03/10/2014">
+         <changelogtext>
+             <![CDATA[By <b><font color=#ff9800>rumbitas</font></b>]]>
+        </changelogtext>
+         <changelogtext>
+             <![CDATA[ http://forum.xda-developers.com/member.php?u=1129314 ]]>
+        </changelogtext>
+    </changelogversion>
+    
+    <changelogversion versionName="Japanese (日本語)" changeDate="03/10/2014">
+         <changelogtext>
+             <![CDATA[By <b><font color=#ff9800>RyokoN</font></b>]]>
+        </changelogtext>
+         <changelogtext>
+             <![CDATA[ http://forum.xda-developers.com/member.php?u=5169444 ]]>
+        </changelogtext>
+    </changelogversion> -->
+
+</changelog>

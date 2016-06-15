@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="dismiss"
+    tools:context="org.goodev.droidddle.DribbbleLogin">
+    <!--
+       <LinearLayout
+           android:id="@+id/container"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/spacing_xlarge"
+           android:padding="@dimen/spacing_large"
+           android:paddingTop="@dimen/spacing_xlarge"
+           android:orientation="vertical"
+           android:layout_gravity="center"
+           android:elevation="@dimen/z_fab"
+           android:background="@drawable/dialog_background"
+           android:transitionName="@string/transition_dribbble_login">
+
+           <org.goodev.droidddle.widget.BaselineGridTextView
+               android:id="@+id/login_message"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:gravity="center"
+               android:layout_marginBottom="@dimen/spacing_normal"
+               android:text="@string/not_login"
+               style="@style/Widget.DialogText" />
+
+           <Button
+               android:id="@+id/login"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:padding="@dimen/padding_normal"
+               android:layout_marginBottom="@dimen/spacing_micro"
+               android:text="@string/login_to"
+               android:textAppearance="@style/TextAppearance.DarkButton"
+               android:drawablePadding="@dimen/spacing_micro"
+               android:onClick="doLogin" />
+
+           <WebView
+               android:id="@+id/webview"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               />
+
+        <include layout="@layout/loading" />
+
+    </LinearLayout> -->
+    <!---->
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spacing_huge"
+        android:layout_marginLeft="@dimen/keyline_1"
+        android:layout_marginRight="@dimen/keyline_1"
+        android:layout_marginBottom="@dimen/spacing_huge"
+        android:paddingTop="@dimen/spacing_xlarge"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:elevation="@dimen/z_fab"
+        android:background="@drawable/dialog_background" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_huge"
+        android:layout_gravity="center_horizontal|top"
+        android:indeterminate="true"
+        android:elevation="@dimen/z_fab"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:indeterminateTint="@color/dribbble_dark"
+        android:indeterminateTintMode="src_in" />
+
+</FrameLayout>

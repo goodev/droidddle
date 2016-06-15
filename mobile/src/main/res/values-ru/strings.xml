@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dribbble</string>
+    <string name="navigation_drawer_open">Открыть навигацию</string>
+    <string name="navigation_drawer_close">Закрыть навигацию</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_share">Поделиться</string>
+    <string name="action_like">Нравится</string>
+    <string name="oauth_canceled">Авторизация через OAuth отменена</string>
+    <string name="prefile_username">%1$s (%2$s)</string>
+    <string name="prefile_followers">"Подписчики %1$s"</string>
+    <string name="prefile_followings">"Мои подписки %1$s"</string>
+    <string name="prefile_shots">"Снимки %1$s"</string>
+    <string name="navdrawer_item_home">Главная</string>
+    <string name="navdrawer_item_profile">Мой профиль</string>
+    <string name="navdrawer_item_shots">Снимки</string>
+    <string name="navdrawer_item_buckets">Ведра</string>
+    <string name="navdrawer_item_projects">Проекты</string>
+    <string name="navdrawer_item_teams">Группы</string>
+    <string name="navdrawer_item_likes">Понравилось</string>
+    <string name="navdrawer_item_followers">Подписчики</string>
+    <string name="navdrawer_item_settings">Настойки</string>
+    <string name="navdrawer_item_profile_title">Моё...</string>
+    <string name="title_activity_shot_details">Детали снимка</string>
+    <string name="add_comment_hit">Добавить комментарий</string>
+    <string name="default_location">Земля</string>
+    <string name="shot_rebound_source">Связать с...</string>
+    <plurals name="shot_count">
+        <item quantity="one">%s снимок</item>
+        <item quantity="other">%s снимки</item>
+        <item quantity="few">empty</item>
+        <item quantity="many">empty</item>
+    </plurals>
+    <plurals name="project_count">
+        <item quantity="one">%s проект</item>
+        <item quantity="other">%s проекты</item>
+        <item quantity="few">empty</item>
+        <item quantity="many">empty</item>
+    </plurals>
+    <plurals name="follower_count">
+        <item quantity="one">%s подписчик</item>
+        <item quantity="other">%s подписчики</item>
+        <item quantity="few">empty</item>
+        <item quantity="many">empty</item>
+    </plurals>
+    <plurals name="following_count">
+        <item quantity="one">%s подписан</item>
+        <item quantity="other">%s подписаны</item>
+        <item quantity="few">empty</item>
+        <item quantity="many">empty</item>
+    </plurals>
+    <plurals name="bucket_count">
+        <item quantity="one">%s ведро</item>
+        <item quantity="other">%s ведра</item>
+        <item quantity="few">empty</item>
+        <item quantity="many">empty</item>
+    </plurals>
+    <plurals name="team_count">
+        <item quantity="one">%s группа</item>
+        <item quantity="other">%s группы</item>
+        <item quantity="few">empty</item>
+        <item quantity="many">empty</item>
+    </plurals>
+    <plurals name="member_count">
+        <item quantity="one">%s пользователь</item>
+        <item quantity="other">%s пользователей</item>
+        <item quantity="few">empty</item>
+        <item quantity="many">empty</item>
+    </plurals>
+    <plurals name="like_count">
+        <item quantity="one">%s лайк</item>
+        <item quantity="other">%s лайков</item>
+        <item quantity="few">empty</item>
+        <item quantity="many">empty</item>
+    </plurals>
+    <string name="title_activity_user">Детали пользователя</string>
+    <string name="cannot_handle_map">На вашем устройстве нет карты</string>
+    <string name="action_follow">Подписаться</string>
+    <string name="action_unfollow">Отписаться</string>
+    <string name="title_activity_user_items">Пользователь</string>
+    <string name="title_user_shot">%s снимков</string>
+    <string name="title_user_project">%s проектов</string>
+    <string name="title_user_follower">%s подписчиков</string>
+    <string name="title_user_following">%s подписок</string>
+    <string name="title_user_bucket">%s вёдер</string>
+    <string name="title_user_team">%s групп</string>
+    <string name="title_user_like">%s лайков</string>
+    <string name="title_activity_team">Детали группы</string>
+    <string name="title_activity_project_shot">%s снимков в проекте</string>
+    <string name="title_activity_bucket_shot">%s вёдер в проекте</string>
+    <string name="comment_added">Комментарий добавлен</string>
+    <string name="sending">Отправка...</string>
+    <string name="general_error">"Ошибка, попробуйте позже! "</string>
+    <string name="comment_options">Опции комментария</string>
+    <string name="comment_options_like">"Нравится "</string>
+    <string name="comment_options_like_why">Нравится&amp;Не нравится?</string>
+    <string name="comment_options_unlike">Не нравится</string>
+    <string name="comment_options_edit">Изменить комментарий</string>
+    <string name="comment_options_delete">Удалить комментарий</string>
+    <string name="comment_options_copy">Скопировать текст комментария</string>
+    <string name="comment_options_who_likes">Смотрите кому это нравится</string>
+    <string name="text_copied_to_clipboard">Текст скопирован в буфер обмена.</string>
+    <string name="like_comment_success">Этот комментарий вам нравится</string>
+    <string name="unlike_comment_success">Этот комментарий вам не нравится</string>
+    <string name="title_like_unlike_comment"><![CDATA[Почему нравится и не нравится? ]]></string>
+    <string name="message_like_unlike_comment">API Dribbble имеет ограничение на 60 запросов в минуту, на обработку множества комментариев требуется много запросов. \nПоэтому выберите, нравится ли вам или нет.</string>
+    <string name="got_it">Понял</string>
+    <string name="delete_comment_success">Комментарий удален!</string>
+    <string name="title_activity_edit_comment">Изменить комментарий</string>
+    <string name="action_send">Отправить</string>
+    <string name="comment_updated">Комментарий обновлен.</string>
+    <string name="user_label">Dribbble</string>
+    <string name="please_login_first">Не авторизован!</string>
+    <string name="default_empty_text">Нет данных.</string>
+    <string name="like_shot_success">Снимок понравился.</string>
+    <string name="unlike_shot_success">Снимок не понравился.</string>
+    <string name="title_share_shot_with_name">%1$s от @%2$s на @dribbble с @droidddle</string>
+    <string name="title_share_shot">%1$s на @dribbble с @droidddle</string>
+    <string name="share_shot_dialog_title">Поделиться %s</string>
+    <string name="title_my_shots">Мои снимки</string>
+    <string name="title_my_buckets">Мои вёдра</string>
+    <string name="title_my_projects">Мои проекты</string>
+    <string name="title_my_likes">Мне понравилось</string>
+    <string name="title_my_teams">Мои группы</string>
+    <string name="title_activity_view_image">Картинка</string>
+    <string name="add_action_shot">Создать снимок</string>
+    <string name="add_action_bucket">Создать ведро</string>
+    <string name="title_activity_create_bucket">Добавить в ведро</string>
+    <string name="hint_bucket_name">Имя (обязательно)</string>
+    <string name="hint_bucket_description">Описание</string>
+    <string name="bucket_created">Ведро создано.</string>
+    <string name="action_add_to_bucket">Добавить в ведро</string>
+    <string name="title_activity_add_to_bucket">Выберите ведро</string>
+    <string name="shot_add_to_bucket_success">Снимок добавлен в ведро.</string>
+    <string name="shot_removed_from_bucket">Снимок удален из ведра.</string>
+    <string name="bucket_removed">"Ведро было удалено. "</string>
+    <string name="bucket_removed_tips">Ведро удалено.</string>
+    <string name="shot_removed">Снимок был удален.</string>
+    <string name="title_activity_create">Создание...</string>
+    <string name="download">Перейти к загрузке</string>
+    <string name="download_from_play_title">Приложению нужно обновление</string>
+    <string name="download_from_play_message">Эта версия больше не может работать, пожалуйста обновите её в Google Play.</string>
+    <string name="check_network">"Проверьте соединение с интернетом. "</string>
+    <string name="about_summary">Версия %1$s</string>
+    <string name="back_again_to_exit">Нажмите назад для выхода</string>
+    <string name="sdcard_not_available">"Вы не можете скачать, так карта памяти недоступна. "</string>
+    <string name="download_tips">Скачать в папку: %1$s</string>
+    <string name="tap_to_login">Нажмите для входа</string>
+    <string name="hint_shot_tags">Теги через запятую</string>
+    <string name="hint_shot_title">Название (обязательно)</string>
+    <string name="hint_shot_description">Описание</string>
+    <string name="select_image_label">Выбрать изображение</string>
+    <string name="shot_updated">Снимок был обновлен.</string>
+    <string name="shot_created">Снимок был создан.</string>
+    <string name="creating">"Отправка... "</string>
+    <string name="internal_storage">Внутренняя память</string>
+    <string name="crop_image">Обрезать картинку</string>
+    <string name="title_activity_about">О Droidddle</string>
+    <string name="luancher_icon_thanks">Спасибо Jovie Brett (https://dribbble.com/bretbardolees), за красивую иконку для приложения.</string>
+    <string name="translate_credit">Спасибо за переводы</string>
+    <string name="title_activity_create_shot">Создать снимок</string>
+    <string name="discard_tips">Вы уверены, что хотите это отменить?</string>
+    <string name="shot_image_file_missing">Пожалуйста, выберите снимок.</string>
+    <string name="create_shot_tips">Создание снимка происходит асинхронно. Это может занять несколько минут.</string>
+    <string name="change_log_text">История изменений</string>
+    <string name="title_activity_update_bucket">Изменить ведро</string>
+    <string name="title_activity_update_shot">Изменить снимок</string>
+    <string name="bucket_updated">"Ведро изменено. "</string>
+    <string name="shot_removed_tips">Снимок удален.</string>
+    <string name="action_add_attachment">Добавить вложение</string>
+    <string name="attach_file_is_missing">Файл отсутствует.</string>
+    <string name="attach_file_is_large">Файл больше 10 Мб.</string>
+    <string name="upload_attachment_title">Добавить вложение</string>
+    <string name="upload_attachment_message">Хотите загрузить %1$s в качестве вложения?</string>
+    <string name="create_attachment_success">Вложение добавлено.</string>
+    <string name="creating_attachment">Загрузка... \nВнимание. Добавление вложения происходит асинхронно, это может занять несколько минут.</string>
+    <string name="pick_file_tips">Выберите файл для вложения.</string>
+    <string name="delete_attach_dialog_title">Удалить вложение</string>
+    <string name="delete_attach_dialog_message">Хотите удалить это вложение?</string>
+    <string name="delete">удалить</string>
+    <string name="attach_file_deleted">Вложение было удалено.</string>
+    <string name="deleting">"Удаление... "</string>
+    <string name="comments_text">Комментарии (%s)</string>
+    <string name="attachment_text">Вложений (%s)</string>
+    <string name="likes_text">Понравилось (%s)</string>
+    <string name="buckets_text">Вёдер (%s)</string>
+    <string name="projects_text">Проекты</string>
+    <string name="rebounds_text">Связей (%s)</string>
+    <string name="opening">Открытие...</string>
+    <string name="title_activity_search">Поиск снимков</string>
+    <string name="action_search">Поиск снимка</string>
+    <string name="search_hint">Поиск снимка</string>
+    <string name="launch_user_failed">Не удалось получить данные пользователя.</string>
+    <string name="action_search_order">Порядок поиска</string>
+    <string name="action_edit">Изменить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_shot_msg">Вы хотите удалить этот снимок?</string>
+    <string name="dialog_delete_bucket_msg">Вы хотите удалить этот ведро?</string>
+    <string name="action_remove_from_bucket">Удалить из ведра</string>
+    <string name="twitter">Твиттер</string>
+    <string name="www">Веб</string>
+    <string name="shots_text">Снимки (%s)</string>
+    <string name="followers_text">Подписчиков (%s)</string>
+    <string name="followings_text">Подписок (%s)</string>
+    <string name="projects_text_with_number">Проектов (%s)</string>
+    <string name="teams_text">Групп (%s)</string>
+    <string name="pref_title_send_by_shot">Добавить подпись для снимка</string>
+    <string name="pref_description_send_by_shot">Добавить \"отправил с @droidddle\"  к снимку в описании.</string>
+    <string name="pref_description_send_by_comment">Добавить \"отправил с @droidddle\"  к комментарию.</string>
+    <string name="pref_title_send_by_comment">Добавить подпись к комментарию</string>
+    <string name="send_by_text">" — отпрвленно с @droidddle"</string>
+    <string name="members_text">Пользователи (%s)</string>
+    <string-array name="search_sort_entry">
+        <item>Популярное</item>
+        <item>Последние</item>
+        <item>пользователь</item>
+    </string-array>
+    <string-array name="shots_sort_entry">
+        <item>Популярные</item>
+        <item>Последние</item>
+        <item>Просматриваемые</item>
+        <item>Комментируемые</item>
+    </string-array>
+    <string-array name="shots_timeframe_entry">
+        <item>За сегодня</item>
+        <item>За неделю</item>
+        <item>За месяц</item>
+        <item>За год</item>
+        <item>За всё время</item>
+    </string-array>
+    <string-array name="shots_list_entry">
+        <item>Снимки</item>
+        <item>Груповые снимки</item>
+        <item>Дебютанты</item>
+        <item>Плей-офф</item>
+        <item>Связанные</item>
+        <item>Анимированые GIF</item>
+        <item>С вложениями</item>
+    </string-array>
+    <string-array name="shot_details_pager_entry">
+        <item>Комментарии</item>
+        <item>Теги</item>
+        <item>Вложения</item>
+        <item>Ведро</item>
+        <item>Понравилось</item>
+        <item>Проект</item>
+        <item>Группа</item>
+        <item>Связанные</item>
+    </string-array>
+    <string name="pref_title_orientation">Ориентация экрана</string>
+    <string-array name="pref_orientation_list_titles">
+        <item>Автоматически (Выбрано системой)</item>
+        <item>Портретный</item>
+        <item>Ландшафтный</item>
+    </string-array>
+    <string name="pref_title_upgrade_pro">Улучшить до PRO</string>
+    <string name="pref_description_upgrade_pro">"Pro-версия приложения включает в себя дополнительные функции. "</string>
+    <string name="pref_title_translate">Помочь перевести это приложение</string>
+    <string name="pref_title_rate">Поставить пять звезд в Google Play</string>
+    <string name="pref_title_about">Информация</string>
+    <string name="translate_title">Перевод</string>
+    <string name="translate_button">Открыть в браузере</string>
+    <string name="translate_message">Мы перевели это приложение с помощью сервиса OneSkyApp. Откройте ссылку https://goodev.oneskyapp.com в браузере, там есть 2 проекта и выберите тот, с которого будете переводить на свой язык. Спасибо!</string>
+    <string name="title_activity_manage_space">Управление данными</string>
+    <string name="pref_title_clear_cache_data">Очистить кеш</string>
+    <string name="pref_description_clear_cache_data">Очистить данные приложения (%1$s)</string>
+    <string name="pref_title_clear_download_image_data">Очистить снимки</string>
+    <string name="pref_description_clear_download_image_data">Очистить все сохраненные снимки (%1$s)</string>
+    <string name="dialog_delete_file">Удаление файлов...</string>
+    <string name="dialog_delete_message">Вы уверены, что хотите удалить выбранные файлы?</string>
+    <string name="dialog_title_clear_images">Удалить снимок</string>
+    <string name="dialog_message_clear_images">Удалить все снимки?</string>
+    <string name="dialog_title_clear_cache">Удалить кеш</string>
+    <string name="dialog_message_clear_cache">Вы уверены, что хотите удалить все файлы кеша?</string>
+</resources>

@@ -1,0 +1,107 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cleaner_shot_item"
+        android:summary="@string/pref_description_cleaner_shot_item"
+        android:title="@string/pref_title_cleaner_shot_item" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="send_by_shot"
+        android:summary="@string/pref_description_send_by_shot"
+        android:title="@string/pref_title_send_by_shot" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="send_by_comment"
+        android:summary="@string/pref_description_send_by_comment"
+        android:title="@string/pref_title_send_by_comment" />
+
+    <ListPreference
+        android:defaultValue="240"
+        android:entries="@array/pref_following_check_titles"
+        android:entryValues="@array/pref_following_check_values"
+        android:summary="@string/pref_summary_following_check"
+        android:key="following_check_setting"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_following_check" />
+
+    <org.goodev.droidddle.widget.ThemeListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_theme_list_titles"
+        android:entryValues="@array/pref_theme_list_values"
+        android:key="theme_key"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_theme" />
+    <Preference
+        android:key="download_path"
+        android:title="@string/title_download_path"></Preference>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_orientation_list_titles"
+        android:entryValues="@array/pref_orientation_list_values"
+        android:key="orientation_setting"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_orientation" />
+    <Preference
+        android:key="about_ads"
+        android:title="@string/title_activity_about_ad">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="org.goodev.droidddle.AboutAdActivity"
+            android:targetPackage="@string/pkg_name" />
+    </Preference>
+    <Preference
+        android:key="manage_space"
+        android:title="@string/pref_title_manage_space">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="org.goodev.droidddle.ManageSpaceActivity"
+            android:targetPackage="@string/pkg_name" />
+    </Preference>
+
+    <Preference
+        android:key="upgrade_pro"
+        android:summary="@string/pref_description_upgrade_pro"
+        android:title="@string/pref_title_upgrade_pro">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="market://details?id=org.goodev.droidddle.pro" />
+    </Preference>
+
+    <PreferenceScreen
+        android:key="translate_pref"
+        android:title="@string/pref_title_translate"></PreferenceScreen>
+
+    <!-- 
+    <Preference android:title="@string/pref_title_donate" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.dwz.cn/fonter" >
+        </intent>
+    </Preference>
+    <Preference android:title="@string/pref_title_help" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.baidu.com" />
+    </Preference>
+     -->
+    <Preference
+        android:key="rate_app"
+        android:title="@string/pref_title_rate"></Preference>
+    <Preference
+        android:key="about_like_tips"
+        android:title="@string/pref_title_about_like"></Preference>
+    <Preference
+        android:key="about_app"
+        android:title="@string/pref_title_about">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="org.goodev.droidddle.AboutActivity"
+            android:targetPackage="@string/pkg_name" />
+    </Preference>
+
+</PreferenceScreen>

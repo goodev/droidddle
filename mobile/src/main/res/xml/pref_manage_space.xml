@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="clear_cache_data"
+        android:summary="@string/pref_description_clear_cache_data"
+        android:title="@string/pref_title_clear_cache_data" />
+    <Preference
+        android:key="clear_download_image_data"
+        android:summary="@string/pref_description_clear_download_image_data"
+        android:title="@string/pref_title_clear_download_image_data" />
+
+</PreferenceScreen>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="transition_dribbble_login" translatable="false">dribbble_login</string>
+
+    <string name="pkg_name">org.goodev.droidddle</string>
+    <string-array name="pref_orientation_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_following_check_values">
+        <item>0</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>1440</item>
+    </string-array>
+
+    <string-array name="shots_sort_value">
+        <item />
+        <item>recent</item>
+        <item>views</item>
+        <item>comments</item>
+    </string-array>
+
+    <string-array name="shots_timeframe_value">
+        <item />
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+        <item>ever</item>
+    </string-array>
+
+    <string-array name="shots_list_value">
+        <item />
+        <item>teams</item>
+        <item>debuts</item>
+        <item>playoffs</item>
+        <item>rebounds</item>
+        <item>animated</item>
+        <item>attachments</item>
+    </string-array>
+
+    <string-array name="pref_theme_list_colors">
+        <item>#E91E63</item>
+        <item>#808080</item>
+        <item>#9c27b0</item>
+        <item>#ffc107</item>
+        <item>#5677fc</item>
+        <item>#259b24</item>
+        <item>#009688</item>
+    </string-array>
+    <string-array name="pref_theme_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+</resources>

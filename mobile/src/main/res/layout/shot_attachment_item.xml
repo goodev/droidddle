@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView style="?cardViewStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/keyline_1_minus_12dp"
+    android:layout_marginLeft="@dimen/keyline_1_minus_8dp"
+    android:layout_marginRight="@dimen/keyline_1_minus_8dp"
+    android:layout_marginTop="@dimen/keyline_1_minus_12dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/keyline_1_minus_8dp"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@id/file_name"
+            android:adjustViewBounds="true"
+            fresco:actualImageScaleType="fitCenter"
+            fresco:viewAspectRatio="1.33"
+            fresco:placeholderImage="@drawable/placeholder" />
+
+        <ImageButton
+            android:id="@+id/download_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shot_action_height"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/image_view"
+            android:layout_marginBottom="@dimen/keyline_1_minus_8dp"
+            android:layout_marginRight="@dimen/keyline_1"
+            android:layout_marginLeft="@dimen/keyline_1"
+            android:layout_marginTop="@dimen/keyline_1_minus_8dp"
+            android:background="@drawable/bg_comment_button"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1"
+            android:src="@drawable/ic_download" />
+
+        <ImageButton
+            android:id="@+id/delete_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shot_action_height"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/image_view"
+            android:layout_marginBottom="@dimen/keyline_1_minus_8dp"
+            android:layout_marginRight="@dimen/keyline_1"
+            android:layout_marginTop="@dimen/keyline_1_minus_8dp"
+            android:background="@drawable/bg_comment_button"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1"
+            android:src="@drawable/ic_delete"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/counts_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/download_view"
+            android:layout_below="@id/image_view"
+            android:layout_margin="@dimen/keyline_1"
+            android:layout_toLeftOf="@id/download_view"
+            android:drawableLeft="@drawable/ic_shot_views"
+            android:drawablePadding="@dimen/keyline_1_minus_12dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/download_view"
+            android:layout_below="@id/image_view"
+            android:layout_marginBottom="@dimen/keyline_1"
+            android:layout_marginTop="@dimen/keyline_1"
+            android:layout_toLeftOf="@id/counts_view"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

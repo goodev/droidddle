@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/swipe_front"
+    style="?cardViewStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/keyline_1_minus_12dp"
+    android:foreground="?selectableItemBackground"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/keyline_1">
+
+
+        <TextView
+            android:id="@+id/shot_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/keyline_shot_action_button"
+            android:paddingLeft="@dimen/keyline_shot_action_button"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+
+        <TextView
+            android:id="@+id/shot_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/shot_title"
+            android:layout_marginLeft="@dimen/keyline_shot_action_button"
+            android:layout_marginRight="@dimen/keyline_shot_action_button"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/shot_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shot_title"
+            android:layout_toRightOf="@id/shot_date"
+            android:drawableLeft="@drawable/ic_shot_views"
+            android:drawablePadding="@dimen/keyline_4dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+
+            />
+
+        <ImageButton
+            android:id="@+id/more_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shot_action_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/shot_title"
+            android:background="?selectableItemBackground"
+            android:padding="@dimen/action_padding_8dp"
+            android:src="@drawable/ic_overflow"
+            android:visibility="gone" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/shot_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shot_views"
+            android:layout_marginBottom="@dimen/keyline_shot_action_button"
+            android:layout_marginTop="@dimen/keyline_4dp"
+            android:adjustViewBounds="true"
+            fresco:viewAspectRatio="1.33"
+            android:minHeight="@dimen/shot_image_min_height" />
+
+        <TextView
+            android:id="@+id/shot_gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/shot_image"
+            android:layout_alignTop="@id/shot_image"
+            android:layout_marginRight="@dimen/keyline_shot_action_button"
+            android:layout_marginTop="@dimen/keyline_shot_action_button"
+            android:background="@drawable/gif_indicator_bg"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="GIF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/shot_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/shot_image"
+            android:autoLink="all"
+            android:background="@color/shot_description_bg"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="@dimen/action_padding_8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/body_text_1_inverse" />
+
+        <!-- action layout-->
+        <ToggleButton
+            android:id="@+id/shot_like"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shot_action_height"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/shot_image"
+            android:layout_marginLeft="@dimen/keyline_shot_action_button"
+            android:background="@drawable/bg_like_button"
+            android:drawableLeft="@drawable/ic_shot_like"
+            android:drawablePadding="@dimen/keyline_4dp"
+            android:gravity="center"
+            android:minWidth="52dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="@dimen/action_padding_8dp"
+            android:paddingRight="@dimen/action_padding_8dp"
+            android:paddingTop="0dp"
+            android:textColor="@color/color_text_like"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="@dimen/shot_action_text_size" />
+
+        <Button
+            android:id="@+id/shot_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shot_action_height"
+            android:layout_below="@id/shot_image"
+            android:layout_marginLeft="@dimen/keyline_shot_action_button"
+            android:layout_marginRight="@dimen/keyline_shot_action_button"
+            android:layout_toRightOf="@id/shot_like"
+            android:background="@drawable/bg_comment_button"
+            android:drawableLeft="@drawable/ic_shot_comment"
+            android:drawablePadding="@dimen/keyline_4dp"
+            android:gravity="center"
+            android:minWidth="52dp"
+            android:paddingLeft="@dimen/action_padding_8dp"
+            android:paddingRight="@dimen/action_padding_8dp"
+            android:text=""
+            android:textColor="@color/body_text_2"
+            android:textSize="@dimen/shot_action_text_size" />
+
+        <ImageButton
+            android:id="@+id/shot_share"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shot_action_height"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/shot_image"
+            android:layout_marginRight="@dimen/keyline_shot_action_button"
+            android:background="@drawable/bg_comment_button"
+            android:paddingLeft="@dimen/action_padding_8dp"
+            android:paddingRight="@dimen/action_padding_8dp"
+            android:src="@drawable/ic_shot_share" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

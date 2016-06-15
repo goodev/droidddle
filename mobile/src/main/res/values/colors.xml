@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#E91E63</color>
+    <color name="primary_darker_color">#C2185B</color>
+    <color name="navigationBarColor">#88C2185B</color>
+    <color name="accent_color">#FF4081</color>
+    <color name="purple_accent_color">#E040FB</color>
+    <color name="a100_accent_color">#FF80AB</color>
+    <color name="red_accent_color">#FF5252</color>
+
+    <color name="red_light">#E91E63</color>
+    <color name="blue_light">#2196F3</color>
+    <color name="green_light">#4CAF50</color>
+    <color name="orange_light">#FF9800</color>
+    <color name="purple_light">#9C27B0</color>
+    <color name="black">#000000</color>
+    <color name="navdrawer_backgroun_color_dark">#090909</color>
+    <color name="navdrawer_backgroun_color">#FAFAFA</color>
+    <color name="default_pager_fill_color">#99009688</color>
+    <color name="teal_color">#009688</color>
+    <color name="light_green">#8bc34a</color>
+    <color name="system_bar_color_purple">#7b1fa2</color>
+    <color name="purple">#9c27b0</color>
+    <color name="accentPurple">#e040fb</color>
+    <color name="purple_pager_fill_color">#999c27b0</color>
+    <color name="local_background_color_default">#4db6ac</color>
+    <color name="system_bar_color_amber">#ffa000</color>
+    <color name="amber">#ffc107</color>
+    <color name="accentAmber">#ffd740</color>
+    <color name="amber_pager_fill_color">#99ffc107</color>
+
+    <color name="system_bar_color_blue">#455ede</color>
+    <color name="blue">#5677fc</color>
+    <color name="accentBlue">#6889ff</color>
+    <color name="blue_pager_fill_color">#995677fc</color>
+
+    <color name="system_bar_color_pink">#c2185b</color>
+    <color name="pink">#e91e63</color>
+    <color name="accentPink">#ff4081</color>
+    <color name="pink_pager_fill_color">#99e91e63</color>
+
+    <color name="system_bar_color_green">#0a7e07</color>
+    <color name="green">#259b24</color>
+    <color name="accentGreen">#5af158</color>
+    <!-- A400 -->
+    <color name="activatedGreen">#14e715</color>
+    <color name="green_pager_fill_color">#99259b24</color>
+
+    <color name="system_bar_color_teal">#00796B</color>
+    <color name="teal">#009688</color>
+    <color name="accentTeal">#64FFDA</color>
+    <!-- A400 -->
+    <color name="activatedTeal">#1DE9B6</color>
+    <color name="teal_pager_fill_color">#99009688</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="shot_description_bg">#60000000</color>
+    <color name="shot_description_bg_inverse">#60ffffff</color>
+    <color name="tab_indicator">#aaffffff</color>
+    <color name="white">#deFFFFFF</color>
+
+    <color name="body_text_1">#de000000</color>
+    <color name="body_text_2">#8a000000</color>
+    <color name="body_text_3">#60000000</color>
+    <color name="body_text_disabled">#44000000</color>
+
+    <color name="body_text_1_inverse">#deffffff</color>
+    <color name="body_text_2_inverse">#8affffff</color>
+    <color name="body_text_3_inverse">#60ffffff</color>
+
+    <color name="theme_primary">#3f51b5</color>
+    <color name="theme_primary_dark">#303f9f</color>
+    <color name="theme_primary_light">#7986cb</color>
+
+    <color name="theme_accent_1">#00b0ff</color>
+    <color name="theme_accent_1_light">#8ad4fa</color>
+
+    <color name="theme_accent_2">#e91e63</color>
+
+    <color name="navdrawer_background">#ffffffff</color>
+    <color name="navdrawer_background_dark">#ff000000</color>
+    <color name="navdrawer_text_color">@color/body_text_1</color>
+    <color name="navdrawer_text_color_dark">@color/body_text_1_inverse</color>
+    <color name="navdrawer_text_color_selected">@color/primary_color</color>
+    <color name="navdrawer_icon_tint">#888</color>
+    <color name="navdrawer_icon_tint_dark">#bbb</color>
+    <color name="navdrawer_icon_tint_selected">@color/primary_color</color>
+
+    <color name="session_photo_scrim">#4000</color>
+    <color name="gray_background">#60000000</color>
+
+    <!-- Background colors for LetterTileDrawables. This set of colors is a subset of
+       https://spec.googleplex.com/quantumpalette#extended which passes Google Accessibility
+       Requirements for the color in question on white with >= 3.0 contrast. We used
+       http://leaverou.github.io/contrast-ratio/#white-on-%23db4437 to double-check the contrast.
+       These colors are also used by MaterialColorMapUtils to generate primary activity colors.
+   -->
+    <array name="letter_tile_colors">
+        <item>#DB4437</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#673AB7</item>
+        <item>#3F51B5</item>
+        <item>#4285F4</item>
+        <item>#039BE5</item>
+        <item>#0097A7</item>
+        <item>#009688</item>
+        <item>#0F9D58</item>
+        <item>#689F38</item>
+        <item>#EF6C00</item>
+        <item>#FF5722</item>
+        <item>#757575</item>
+    </array>
+    <!-- Darker versions of letter_tile_colors, two shades darker. These colors are used
+        for settings secondary activity colors. -->
+    <array name="letter_tile_colors_dark">
+        <item>#C53929</item>
+        <item>#C2185B</item>
+        <item>#7B1FA2</item>
+        <item>#512DA8</item>
+        <item>#303F9F</item>
+        <item>#3367D6</item>
+        <item>#0277BD</item>
+        <item>#006064</item>
+        <item>#00796B</item>
+        <item>#0B8043</item>
+        <item>#33691E</item>
+        <item>#E65100</item>
+        <item>#E64A19</item>
+        <item>#424242</item>
+    </array>
+    <color name="text_primary_light">#ffffffff</color>
+    <color name="scrim">#99323232</color>
+    <!--<color name="dribbble">#ffea4c89</color>-->
+    <color name="dribbble">#fff06292</color> <!-- pink 300 -->
+    <color name="dribbble_dark">#ec407a</color> <!-- pink 400 -->
+    <color name="dribbble_super_dark">#ff33292d</color>
+    <color name="dribbble_link_highlight">#b3f06292</color>
+    <color name="fab_heart_empty">@color/text_primary_light</color>
+    <color name="fab_heart_progress_bar">#deffffff</color> <!-- 87% white-->
+    <color name="fab_heart_full">#ffffffff</color>
+    <color name="gif_badge_light_image">#40000000</color>
+    <color name="gif_badge_dark_image">#b3ffffff</color>
+    <color name="ripple_light">#99ffffff</color>
+    <color name="background_light">#fafafa</color>
+    <color name="background_dark">#ff333333</color>
+    <color name="grey_300">#ffE0E0E0</color>
+    <color name="text_primary_dark">#de000000</color>
+    <color name="text_secondary_dark">#8a000000</color>
+</resources>

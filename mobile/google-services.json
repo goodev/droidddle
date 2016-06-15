@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_id": "droidddle",
+    "project_number": "608641152729",
+    "name": "droidddle"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608641152729:android:98d680654b5381c5",
+        "client_id": "android:org.goodev.droidddle",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "org.goodev.droidddle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608641152729-hsaf8l4s5eljaf92gbq41981k82lg1kf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.goodev.droidddle",
+            "certificate_hash": "7381CCE4512B043E39EB0E6F6D41B50C931A35D2"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-68232106-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

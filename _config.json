@@ -1,0 +1,12 @@
+{
+  "syntaxVersion": "2",
+  "projectPackageId": "org.goodev.droidddle",
+  "authority": "org.goodev.droidddle.provider",
+  "providerJavaPackage": "org.goodev.droidddle.provider",
+  "providerClassName": "DroidddleProvider",
+  "sqliteOpenHelperClassName": "DroidddleSQLiteOpenHelper",
+  "sqliteOpenHelperCallbacksClassName": "DroidddleSQLiteOpenHelperCallbacks",
+  "databaseFileName": "db.db",
+  "databaseVersion": 1,
+  "enableForeignKeys": true,
+}

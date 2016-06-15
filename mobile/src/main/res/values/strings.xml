@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droidddle</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_like">Like</string>
+    <string name="oauth_canceled">OAuth canceled</string>
+    <string name="prefile_username">%1$s (%2$s)</string>
+    <string name="prefile_followers">"Followers  %1$s"</string>
+    <string name="prefile_followings">"Followings %1$s"</string>
+    <string name="prefile_shots">"Shots      %1$s"</string>
+    <string name="navdrawer_item_home">Home</string>
+    <string name="navdrawer_item_profile">My Profile</string>
+    <string name="navdrawer_item_shots">Shots</string>
+    <string name="navdrawer_item_following">Following</string>
+    <string name="navdrawer_item_buckets">Buckets</string>
+    <string name="navdrawer_item_projects">Projects</string>
+    <string name="navdrawer_item_teams">Teams</string>
+    <string name="navdrawer_item_likes">Likes</string>
+    <string name="navdrawer_item_followers">Followers</string>
+    <string name="navdrawer_item_settings">Settings</string>
+    <string name="navdrawer_item_download">Downloaded images</string>
+    <string name="navdrawer_item_profile_title">My …</string>
+    <string name="title_activity_shot_details">Shot Details</string>
+    <string name="add_comment_hit">Add a comment</string>
+    <string name="default_location">Earth</string>
+    <string name="shot_rebound_source">REBOUND OF…</string>
+    <plurals name="shot_count">
+        <item quantity="one">%s shot</item>
+        <item quantity="zero">%s shot</item>
+        <item quantity="other">%s shots</item>
+    </plurals>
+    <plurals name="project_count">
+        <item quantity="one">%s project</item>
+        <item quantity="zero">%s project</item>
+        <item quantity="other">%s projects</item>
+    </plurals>
+    <plurals name="follower_count">
+        <item quantity="one">%s follower</item>
+        <item quantity="zero">%s follower</item>
+        <item quantity="other">%s followers</item>
+    </plurals>
+    <plurals name="following_count">
+        <item quantity="one">%s following</item>
+        <item quantity="zero">%s following</item>
+        <item quantity="other">%s followings</item>
+    </plurals>
+    <plurals name="bucket_count">
+        <item quantity="one">%s bucket</item>
+        <item quantity="zero">%s bucket</item>
+        <item quantity="other">%s buckets</item>
+    </plurals>
+    <plurals name="team_count">
+        <item quantity="one">%s team</item>
+        <item quantity="zero">%s team</item>
+        <item quantity="other">%s teams</item>
+    </plurals>
+    <plurals name="member_count">
+        <item quantity="one">%s member</item>
+        <item quantity="zero">%s member</item>
+        <item quantity="other">%s members</item>
+    </plurals>
+    <plurals name="like_count">
+        <item quantity="one">%s like</item>
+        <item quantity="zero">%s like</item>
+        <item quantity="other">%s likes</item>
+    </plurals>
+    <string name="title_activity_user">User details</string>
+    <string name="cannot_handle_map">Do not have map app on your device</string>
+    <string name="action_follow">Follow</string>
+    <string name="action_unfollow">Un-Follow</string>
+    <string name="title_activity_user_items">User</string>
+    <string name="title_user_shot">%s\'s shots</string>
+    <string name="title_user_project">%s\'s projects</string>
+    <string name="title_user_follower">%s\'s followers</string>
+    <string name="title_user_following">%s\'s followings</string>
+    <string name="title_user_bucket">%s\'s buckets</string>
+    <string name="title_user_team">%s\'s teams</string>
+    <string name="title_user_like">%s\'s likes</string>
+    <string name="title_activity_team">Team details</string>
+    <string name="title_activity_project_shot">%s project\'s shots</string>
+    <string name="title_activity_bucket_shot">%s bucket\'s shots</string>
+    <string name="comment_added">Comment added</string>
+    <string name="sending">Sending …</string>
+    <string name="general_error">Error, please try later !</string>
+    <string name="comment_options">Comment options</string>
+    <string name="comment_options_like">Like this</string>
+    <string name="comment_options_like_why">Like&amp;Unlike?</string>
+    <string name="comment_options_unlike">Unlike this</string>
+    <string name="comment_options_edit">Edit comment</string>
+    <string name="comment_options_delete">Delete comment</string>
+    <string name="comment_options_copy">Copy comment text</string>
+    <string name="comment_options_who_likes">See who like\'d this</string>
+    <string name="text_copied_to_clipboard">Text copied to clipboard.</string>
+    <string name="like_comment_success">Comment is liked</string>
+    <string name="unlike_comment_success">Comment is unliked</string>
+    <string name="title_like_unlike_comment"><![CDATA[Why both like & unlike?]]></string>
+    <string name="message_like_unlike_comment">The Dribble API limits the maximum number of request to 60 per minute. For every comment a request is sent to check whether you have liked the comment or not. If a shot has many comments, this will lead to reaching the rate limit quickly. Select Like or Unlike because you can like or unlike a comment numerous times without worrying about the rate limit.</string>
+    <string name="got_it">Got it</string>
+    <string name="delete_comment_success">Comment is deleted.</string>
+    <string name="title_activity_edit_comment">Edit comment</string>
+    <string name="action_send">Send</string>
+    <string name="comment_updated">Comment is updated.</string>
+    <string name="user_label">Droidddle</string>
+    <string name="please_login_first">Not logged in!</string>
+    <string name="default_empty_text">No data.</string>
+    <string name="like_shot_success">Shot is liked.</string>
+    <string name="unlike_shot_success">Shot is unliked.</string>
+    <string name="title_share_shot_with_name">%1$s by @%2$s on @dribbble with @droidddle</string>
+    <string name="title_share_shot">%1$s on @dribbble with @droidddle</string>
+    <string name="share_shot_dialog_title">Share %s</string>
+    <string name="title_my_shots">My shots</string>
+    <string name="title_my_following_shots">My following shots</string>
+    <string name="title_my_buckets">My buckets</string>
+    <string name="title_my_projects">My projects</string>
+    <string name="title_my_likes">My likes</string>
+    <string name="title_my_teams">My teams</string>
+    <string name="title_activity_view_image">Image details</string>
+    <string name="add_action_shot">Create shot</string>
+    <string name="add_action_bucket">Create bucket</string>
+    <string name="title_activity_create_bucket">Create bucket</string>
+    <string name="hint_bucket_name">Name (required)</string>
+    <string name="hint_bucket_description">Description</string>
+    <string name="bucket_created">Bucket created.</string>
+    <string name="action_add_to_bucket">Add to bucket</string>
+    <string name="action_download">Download</string>
+    <string name="title_activity_add_to_bucket">Pick a bucket</string>
+    <string name="shot_add_to_bucket_success">Shot has been added to bucket.</string>
+    <string name="shot_removed_from_bucket">Shot deleted from this bucket.</string>
+    <string name="bucket_removed">Bucket has been deleted.</string>
+    <string name="bucket_removed_tips">Bucket deleted.</string>
+    <string name="shot_removed">Shot has been deleted.</string>
+    <string name="title_activity_create">Create …</string>
+    <string name="download">Go to download</string>
+    <string name="download_from_play_title">App needs to be updated</string>
+    <string name="download_from_play_message">This version cannot function properly anymore, please upgrade it from Google Play.</string>
+    <string name="check_network">Check your device network.</string>
+    <string name="about_summary">Version %1$s</string>
+    <string name="back_again_to_exit">Press back again to exit.</string>
+    <string name="sdcard_not_available">SDCard not available, can\'t download file.</string>
+    <string name="download_tips">Download to folder: %1$s</string>
+    <string name="tap_to_login">Tap to login</string>
+    <string name="hint_shot_tags">Tags, separated by commas</string>
+    <string name="hint_shot_title">Title (required)</string>
+    <string name="hint_shot_description">Description</string>
+    <string name="select_image_label">Select an image</string>
+    <string name="shot_updated">Shot has been updated.</string>
+    <string name="shot_created">Shot has been created.</string>
+    <string name="creating">Sending …</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="crop_image">Crop image</string>
+    <string name="title_activity_about">About Droidddle</string>
+    <string name="luancher_icon_thanks">Special thanks \n\nJovie Brett (https://dribbble.com/bretbardolees) made the beautiful launcher icon and gave some valuable UI suggestions. \nTaylor Ling (https://dribbble.com/taylorling) drafted me as a Player to develop the Create shot feature and created the default shot watch face http://goo.gl/TzbBte. \nRoman Nurik made a great wallpaper and a watch face based on Muzei (http://muzei.co).</string>
+    <string name="translate_credit">Translation credits</string>
+    <string name="title_activity_create_shot">Create shot</string>
+    <string name="discard_tips">Do you want to discard this?</string>
+    <string name="shot_image_file_missing">Please select the shot image.</string>
+    <string name="create_shot_tips">Creating a shot happens asynchronously. It may take a few
+        minutes to see it.</string>
+    <string name="change_log_text">Change log</string>
+    <string name="title_activity_update_bucket">Edit bucket</string>
+    <string name="title_activity_update_shot">Edit shot</string>
+    <string name="bucket_updated">Bucket updated.</string>
+    <string name="shot_removed_tips">Shot deleted.</string>
+    <string name="action_add_attachment">Add attachment</string>
+    <string name="attach_file_is_missing">File is missing.</string>
+    <string name="attach_file_is_large">File is larger than 10 Mb.</string>
+    <string name="upload_attachment_title">Create an attachment</string>
+    <string name="upload_attachment_message">Do you want to upload %1$s as an attachment ?</string>
+    <string name="create_attachment_success">Attachment created.</string>
+    <string name="creating_attachment">Uploading … \nNOTICE: Creating an attachment happens asynchronously. It may need a few minutes to see it.</string>
+    <string name="pick_file_tips">Select an attachment file.</string>
+    <string name="delete_attach_dialog_title">Delete attachment</string>
+    <string name="delete_attach_dialog_message">Do you want to delete this attachment ?</string>
+    <string name="delete">delete</string>
+    <string name="attach_file_deleted">Attachment has been deleted.</string>
+    <string name="deleting">Deleting …</string>
+    <string name="comments_text">Comments (%s)</string>
+    <string name="attachment_text">Attachments (%s)</string>
+    <string name="likes_text">Likes (%s)</string>
+    <string name="buckets_text">Buckets (%s)</string>
+    <string name="projects_text">Projects</string>
+    <string name="rebounds_text">Rebounds (%s)</string>
+    <string name="opening">Opening …</string>
+    <string name="title_activity_search">Search shots</string>
+    <string name="action_search">Search shot</string>
+    <string name="search_hint">Search shot</string>
+    <string name="launch_user_failed">Can\'t get user data.</string>
+    <string name="launch_shot_failed">Can\'t view this shot.</string>
+    <string name="action_search_order">Search order</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_shot_msg">Do you want to delete this shot?</string>
+    <string name="dialog_delete_bucket_msg">Do you want to delete this bucket?</string>
+    <string name="action_remove_from_bucket">Remove from bucket</string>
+    <string name="twitter">Twitter</string>
+    <string name="www">Web</string>
+    <string name="shots_text">Shots (%s)</string>
+    <string name="followers_text">Followers (%s)</string>
+    <string name="followings_text">Followings (%s)</string>
+    <string name="projects_text_with_number">Projects (%s)</string>
+    <string name="teams_text">Teams (%s)</string>
+    <string name="pref_title_send_by_shot">Add signature on shot</string>
+    <string name="pref_description_send_by_shot">Add \"sent by @droidddle\" on shot description.</string>
+    <string name="pref_description_send_by_comment">Add \"sent by @droidddle\" on comment.</string>
+    <string name="pref_title_send_by_comment">Add signature on comment</string>
+    <string name="send_by_text">\n\n — send by @droidddle</string>
+    <string name="members_text">Members (%s)</string>
+    <string name="pick_image_error">Can\'t load selected image, please try again!</string>
+    <string name="pref_title_about_like">About liking shots &amp; comments</string>
+    <string name="message_like_status">The Dribble API limits the maximum number of request to 60 per minute. For every shot/comment a request is sent to check whether you have liked it or not. Viewing/scrolling through shots may lead to reaching the rate limit quickly. Therefore, we don\'t check the shot/comment like status – if you want to like a shot, just press the like button and press it again to unlike the shot.</string>
+    <string name="action_save">Save</string>
+    <string name="pref_title_theme">Theme</string>
+    <string name="action_filter_time">Select timeframe</string>
+    <string name="time_filter_now">Now</string>
+    <string name="time_filter_week">Past Week</string>
+    <string name="time_filter_month">Past Month</string>
+    <string name="time_filter_year">Past Year</string>
+    <string name="time_filter_every">All Time</string>
+    <string name="muzei_popular_source_description">Popular shots from Dribbble</string>
+    <string name="muzei_popular_source_name">Popular shots</string>
+    <string name="please_login_to_using_wallpaper">Login needed for Droidddle to get the popular shots</string>
+    <string name="please_login_to_using_wallpaper1">Login needed for Droidddle to get the shots!</string>
+    <string name="action_share_shot">Share shot</string>
+    <string name="popular_shot_source_action_view">View shot</string>
+    <string name="action_login">Login to Droidddle</string>
+    <string name="muzei_source_error_no_shot_to_share">No shot to share.</string>
+    <string name="muzei_bucket_source_description">A new shot every day</string>
+    <string name="muzei_bucket_source_name">Featured shot</string>
+    <string name="pref_title_following_check">Following check frequency</string>
+    <string name="pref_summary_following_check">How often to check for new following shots, short time will consume more bandwidth and power.</string>
+    <string name="notification_new_shots_title">%s New shots</string>
+    <string name="open_in_browser">Chose browser</string>
+    <string name="tips_open_in_browser">Can\'t handle this, please open it in browser.</string>
+    <string name="navdrawer_item_other">Others</string>
+    <string name="donation">Paypal: admin@goodev.org \nIn case you want to buy me a beer. Click to copy the address.</string>
+    <string name="donation_label">Paypal address</string>
+    <string name="donation_copy_tip">Paypal address copied to clipboard.</string>
+    <string-array name="search_sort_entry">
+        <item>Popular</item>
+        <item>Latest</item>
+        <item>User</item>
+    </string-array>
+    <string-array name="shots_sort_entry">
+        <item>Popular</item>
+        <item>Recent</item>
+        <item>Most Viewed</item>
+        <item>Most Commented</item>
+    </string-array>
+    <string-array name="shots_timeframe_entry">
+        <item>Now</item>
+        <item>Past Week</item>
+        <item>Past Month</item>
+        <item>Past Year</item>
+        <item>All Time</item>
+    </string-array>
+    <string-array name="shots_list_entry">
+        <item>Shots</item>
+        <item>Team Shots</item>
+        <item>Debuts</item>
+        <item>Playoffs</item>
+        <item>Rebounds</item>
+        <item>Animated GIFs</item>
+        <item>With Attachments</item>
+    </string-array>
+    <string-array name="shot_details_pager_entry">
+        <item>Comments</item>
+        <item>Tags</item>
+        <item>Attachments</item>
+        <item>Buckets</item>
+        <item>Likes</item>
+        <item>Project</item>
+        <item>Team</item>
+        <item>Rebound</item>
+    </string-array>
+    <string-array name="pref_following_check_titles">
+        <item>Never check</item>
+        <item>10 Min</item>
+        <item>30 Min</item>
+        <item>1 Hour</item>
+        <item>2 Hours</item>
+        <item>4 Hours</item>
+        <item>1 Day</item>
+    </string-array>
+    <string name="pref_title_orientation">Screen orientation</string>
+    <string-array name="pref_orientation_list_titles">
+        <item>Automatic (system default)</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <string name="pref_title_upgrade_pro">Upgrade to Pro</string>
+    <string name="pref_description_upgrade_pro">The pro version of this app contain pro function.</string>
+    <string name="pref_title_translate">Help translate Droidddle</string>
+    <string name="pref_title_rate">Give five stars on Google Play</string>
+    <string name="pref_title_about">About</string>
+    <string name="translate_title">Translate</string>
+    <string name="translate_button">Open in a browser</string>
+    <string name="translate_message">We are using OneSkyApp service to translate this app. Open https://goodev.oneskyapp.com in your browser and you will find two projects there – one from Chinese to your language and the other from English to your language.</string>
+    <string name="pref_title_cleaner_shot_item">Concise mode</string>
+    <string name="pref_description_cleaner_shot_item">Clear layout to view shots</string>
+    <string name="about_droidddle"><![CDATA[
+Droidddle is a Dribbble.com client.
+★★★★★Features:★★★★★
+* Search shots on Dribbble
+* Create shot on Dribbble
+* Browse, Comment, Like shots on Dribbble
+* Zoom in/out image
+* View animated GIFs
+* Follow Players on Dribbble
+* Create bucket on Dribbble
+* Share shot on Dribbble
+* A lot of other functions wait for you exploring
+
+If you like it, please rate ★★★★★, Thank you!!!!!
+        ]]></string>
+    <string name="download_service">Download image service</string>
+    <string name="title_activity_manage_space">Manage data</string>
+    <string name="pref_title_clear_cache_data">Clear cache data</string>
+    <string name="pref_description_clear_cache_data">Clear app cache data ( %1$s )</string>
+    <string name="pref_title_clear_download_image_data">Clear shot image</string>
+    <string name="pref_description_clear_download_image_data">Clear all downloaded shot images ( %1$s )</string>
+    <string name="dialog_delete_file">Deleting files …</string>
+    <string name="dialog_delete_message">Do you want to delete those files?</string>
+    <string name="dialog_title_clear_images">Delete shot images</string>
+    <string name="dialog_message_clear_images">Do you want to delete all shot images ?</string>
+    <string name="dialog_title_clear_cache">Delete cache</string>
+    <string name="dialog_message_clear_cache">Do you want to delete all cache files ?</string>
+    <string name="pref_title_manage_space">Manage space</string>
+    <string-array name="pref_theme_list_titles">
+        <item>Default</item>
+        <item>Black (Save power on AMOLED)</item>
+        <item>Purple</item>
+        <item>Amber</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Teal</item>
+    </string-array>
+    <string-array name="refresh_entries">
+        <item>manually</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>daily</item>
+    </string-array>
+    <string name="title_activity_configure_shot_widget">Select refresh interval</string>
+    <string name="shot_widget_empty">Loading …</string>
+    <string name="shot_widget_title">Latest shots</string>
+    <string name="not_login">Please login to see the data</string>
+
+    <string name="title_activity_survey">Support droidddle</string>
+    <string name="no_survey">Survey is not available right now</string>
+    <string name="title_survey_rewards">Support Droidddle</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about_ad">About Ads</string>
+    <string name="title_download_path">Download directory</string>
+    <string name="about_ads_text"><b>Info</b>\n\nI developed droidddle in spare time, evenings and
+        weekends.If you like it, you can support me through the Ads. If you do not want to see Ads
+        at shots stream, you can remove it using the following Switch settings.But you still can
+        support me through the "Survey rewards" screen. Thank you!
+    </string>
+    <string name="item_ads_text"><b>Info</b>\n\nI developed droidddle in spare time, evenings and
+        weekends.If you like it, you can support me through the Ad and survey. Thank you!
+    </string>
+    <string name="ads_switch_text">Show ads in shots</string>
+    <string name="ad_sponsored">Sponsored</string>
+    <string name="tag_search_tips">Use tag:WORD to browse a tag\'s shot</string>
+    <string name="title_activity_tag">Tag:%s</string>
+    <string name="search_empty_text">You can use tag:word to search a specific tag. Such as tag:dribbble to browse the shots taged by dribbble.</string>
+    <string name="sdcard_permission_tips">Need USB storage permission to download files.Approve and download it again!</string>
+    <string name="switch_to_color_search">Search by color</string>
+    <string name="switch_to_text_search">Search by text</string>
+    <string name="color_minimum">Color Min %s%%</string>
+    <string name="pick_color_title">Choose color</string>
+    <string name="rate_text"><b>You are happy, we are happy!</b></string>
+    <string name="rate_subtext">Please share this rating of our app on the Google Store! Thanks for your support!</string>
+    <string name="rate">Rate now</string>
+    <string name="remind">Next time</string>
+    <string name="no">No thanks</string>
+    <string name="dontask">Never ask</string>
+
+    <string name="login_to">Log in to dribbble</string>
+    <string name="login_on_browser_tips">Please login from the browser</string>
+    <string name="login_canceled">Login canceled !</string>
+</resources>

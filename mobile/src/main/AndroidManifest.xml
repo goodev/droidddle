@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.goodev.droidddle"
+    android:sharedUserId="org.goodev.droidddle"
+    android:sharedUserLabel="@string/user_label">
+
+    <uses-sdk tools:overrideLibrary="android.support.customtabs" />
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <!-- <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+     -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- Required by RemoteMuzeiArtSource -->
+    <!-- Required to act as a custom watch face. -->
+    <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="false"
+        android:name=".App"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.Default">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!--
+        渠道商编号，其中 name 请不要改，将 value 修改为渠道商编号。渠道名称请到 mtj.baidu.com
+        的渠道管理中修改
+        -->
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="PlayMarket" />
+        <!-- 您从百度网站获取的 APP	KEY -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="9774bc389f" />
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="false" />
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="false" />
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/LaunchTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="dribbble.com"
+                    android:path="/shots"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="dribbble.com"
+                    android:pathPrefix="/shots/"
+                    android:scheme="https" />
+                <!-- https://dribbble.com/shots/1873731-Movers-Logo-Design -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="drbl.in"
+                    android:scheme="http" />
+                <!-- http://drbl.in/oRYR -->
+            </intent-filter>
+            <!--
+             <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="dribbble.com"
+                    android:path="/search"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <category android:name="android.intent.category.BROWSABLE"></category>
+
+                <data
+                    android:host="dribbble.com"
+                    android:path="/.*"
+                    android:pathPattern="^[designers|teams]"
+                    android:scheme="https"></data>
+                https://dribbble.com/
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.goodev.droidddle.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ShotDetailsActivity"
+            android:label="@string/title_activity_shot_details"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.goodev.droidddle.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:label="@string/title_activity_user"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.goodev.droidddle.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UserItemsActivity"
+            android:label="@string/title_activity_user_items" />
+        <activity
+            android:name=".TeamActivity"
+            android:label="@string/title_activity_team" />
+        <activity
+            android:name=".TagActivity"
+            android:label="@string/title_activity_tag" />
+        <activity
+            android:name=".ProjectShotActivity"
+            android:label="@string/title_activity_project_shot" />
+        <activity
+            android:name=".EditCommentActivity"
+            android:label="@string/title_activity_edit_comment" />
+        <activity
+            android:name=".ViewImageActivity"
+            android:label="@string/title_activity_view_image" />
+        <activity
+            android:name=".CreateBucketActivity"
+            android:label="@string/title_activity_create_bucket" />
+        <activity
+            android:name=".AddToBucketActivity"
+            android:label="@string/title_activity_add_to_bucket" />
+        <activity
+            android:name=".CreateActivity"
+            android:label="@string/title_activity_create" />
+        <activity
+            android:name="com.android.camera.CropImage"
+            android:label="@string/crop_image" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name=".ColorSearchActivity"
+            android:label="@string/title_activity_search" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.Default.Toolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name=".DribbbleLogin"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/DribbbleLogin">
+            <intent-filter>
+                <data
+                    android:host="phone-callback"
+                    android:scheme="droidddle" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".provider.SearchProvider"
+            android:authorities="org.goodev.droidddle.SuggestionProvider"
+            android:exported="false" />
+
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/app_name" />
+
+        <service
+            android:name=".download.DownloadService"
+            android:exported="false"
+            android:label="@string/download_service" />
+
+        <activity
+            android:name=".ManageSpaceActivity"
+            android:label="@string/title_activity_manage_space" />
+        <activity
+            android:name=".receiver.ShotAppWidgetConfigure"
+            android:label="@string/title_activity_configure_shot_widget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receiver.ShotAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/shot_appwidget_info" />
+        </receiver>
+
+        <service
+            android:name=".receiver.ShotWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <service android:name=".notif.FollowingCheckService" />
+
+        <activity
+            android:name=".SurveyActivity"
+            android:label="@string/title_activity_survey"></activity>
+
+        <activity
+            android:name=".AboutAdActivity"
+            android:label="@string/title_activity_about_ad"></activity>
+        <activity
+            android:name=".DownloadedActivity"
+            android:label="@string/navdrawer_item_download"></activity>
+
+        <activity
+            android:name="com.nononsenseapps.filepicker.FilePickerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/FilePickerTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="BaiduMobAd_APP_ID"
+            android:value="cec299a8" />
+
+    </application>
+
+</manifest>

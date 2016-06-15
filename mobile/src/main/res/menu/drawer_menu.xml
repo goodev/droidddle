@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:checked="true"
+            android:icon="@drawable/ic_drawer_dribbble"
+            android:title="@string/navdrawer_item_home" />
+
+        <item
+            android:id="@+id/drawer_following"
+            android:icon="@drawable/ic_drawer_following"
+            android:title="@string/navdrawer_item_following" />
+
+        <item
+            android:id="@+id/drawer_shots"
+            android:icon="@drawable/ic_drawer_shots"
+            android:title="@string/navdrawer_item_shots" />
+
+        <item
+            android:id="@+id/drawer_buckets"
+            android:icon="@drawable/ic_drawer_buckets"
+            android:title="@string/navdrawer_item_buckets" />
+
+        <item
+            android:id="@+id/drawer_projects"
+            android:icon="@drawable/ic_drawer_projects"
+            android:title="@string/navdrawer_item_projects" />
+
+        <item
+            android:id="@+id/drawer_team"
+            android:icon="@drawable/ic_drawer_team"
+            android:title="@string/navdrawer_item_teams" />
+
+        <item
+            android:id="@+id/drawer_likes"
+            android:icon="@drawable/ic_drawer_favorite"
+            android:title="@string/navdrawer_item_likes" />
+    </group>
+    <item
+        android:id="@+id/drawer_dl"
+        android:icon="@drawable/ic_drawer_dl"
+        android:title="@string/navdrawer_item_download" />
+    <item
+        android:id="@+id/drawer_settings"
+        android:icon="@drawable/ic_drawer_settings"
+        android:title="@string/navdrawer_item_settings" />
+    <item
+        android:id="@+id/drawer_about"
+        android:icon="@drawable/ic_drawer_about"
+        android:title="@string/title_activity_about" />
+    <item
+        android:id="@+id/drawer_rewards"
+        android:icon="@drawable/ic_loyalty_black_24dp"
+        android:title="@string/title_survey_rewards" />
+</menu>

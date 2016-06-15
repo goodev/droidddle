@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="shot_column">3</integer>
+    <!-- 64 + 48 -->
+    <dimen name="toolbar_placeholder_height">112dp</dimen>
+</resources>

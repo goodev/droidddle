@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="two_pane">false</bool>
+    <integer name="two_pane_shot_column">1</integer>
+    <integer name="user_shot_column">1</integer>
+    <dimen name="two_pane_margin">0dp</dimen>
+
+    <item name="shot_detalis_layout" type="layout">@layout/activity_shot_details</item>
+    <item name="detalis_layout_base" type="layout">@layout/activity_base_layout</item>
+    <item name="fragment_shot_layout" type="layout">@layout/fragment_shot</item>
+    <item name="fragment_user_layout" type="layout">@layout/fragment_user</item>
+    <item name="fragment_team_layout" type="layout">@layout/fragment_team</item>
+    <item name="user_layout" type="layout">@layout/activity_user</item>
+</resources>

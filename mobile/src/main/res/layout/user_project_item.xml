@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="?selectableItemBackground"
+    android:paddingLeft="@dimen/keyline_1"
+    android:paddingRight="@dimen/keyline_1">
+
+    <TextView
+        android:id="@+id/bucket_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/keyline_1_minus_12dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/bucket_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bucket_desc"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginRight="@dimen/keyline_1_minus_8dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+
+    <TextView
+        android:id="@+id/shot_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/bucket_name"
+        android:layout_marginLeft="@dimen/keyline_1_minus_8dp"
+        android:layout_toRightOf="@id/bucket_name"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+</RelativeLayout>

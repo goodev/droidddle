@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SeekBarCompat">
+        <attr name="thumbColor" format="color" />
+        <attr name="seekColor" format="color" />
+        <attr name="seekBackgroundColor" format="color" />
+        <attr name="thumbAlpha" format="float" />
+    </declare-styleable>
+</resources>

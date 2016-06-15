@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droidddle</string>
+    <string name="navigation_drawer_open">Otvori navigacijsku ladicu</string>
+    <string name="navigation_drawer_close">Zatvori navigacijsku ladicu</string>
+    <string name="action_settings">Postavke</string>
+    <string name="action_share">Podijeli</string>
+    <string name="action_like">Lajkaj</string>
+    <string name="oauth_canceled">OAuth otkazan</string>
+    <string name="prefile_username">%1$s (%2$s)</string>
+    <string name="prefile_followers">"Pretplatnici %1$s"</string>
+    <string name="prefile_followings">"Pretplate %1$s"</string>
+    <string name="prefile_shots">"Šutevi      %1$s"</string>
+    <string name="navdrawer_item_home">Polazno</string>
+    <string name="navdrawer_item_profile">Moj Profil</string>
+    <string name="navdrawer_item_shots">Šutevi</string>
+    <string name="navdrawer_item_following">Pretplata</string>
+    <string name="navdrawer_item_buckets">Kante</string>
+    <string name="navdrawer_item_projects">Projekti</string>
+    <string name="navdrawer_item_teams">Timovi</string>
+    <string name="navdrawer_item_likes">Lajkovi</string>
+    <string name="navdrawer_item_followers">Pretplatnici</string>
+    <string name="navdrawer_item_settings">Postavke</string>
+    <string name="navdrawer_item_profile_title">Moje ...</string>
+    <string name="title_activity_shot_details">Detalji o Šutu</string>
+    <string name="add_comment_hit">Napiši komentar</string>
+    <string name="default_location">Zemlja</string>
+    <string name="shot_rebound_source">SKOK OD...</string>
+    <plurals name="shot_count">
+        <item quantity="one">%s skok</item>
+        <item quantity="other">%s skok(ov)a</item>
+        <item quantity="few">nekoliko skokova</item>
+    </plurals>
+    <plurals name="project_count">
+        <item quantity="one">%s projekt</item>
+        <item quantity="other">%s projekata</item>
+        <item quantity="few">nekoliko projekata</item>
+    </plurals>
+    <plurals name="follower_count">
+        <item quantity="one">%s pretplatnik</item>
+        <item quantity="other">%s pretplatnika</item>
+        <item quantity="few">nekoliko pretplatnika</item>
+    </plurals>
+    <plurals name="following_count">
+        <item quantity="one">%s pretplata</item>
+        <item quantity="other">%s pretplata</item>
+        <item quantity="few">nekoliko pretplata</item>
+    </plurals>
+    <plurals name="bucket_count">
+        <item quantity="one">%s kanta</item>
+        <item quantity="other">%s kanti</item>
+        <item quantity="few">nekoliko kanti</item>
+    </plurals>
+    <plurals name="team_count">
+        <item quantity="one">%s tim</item>
+        <item quantity="other">%s timova</item>
+        <item quantity="few">nekoliko timova</item>
+    </plurals>
+    <plurals name="member_count">
+        <item quantity="one">%s član</item>
+        <item quantity="other">%s član(ov)a</item>
+        <item quantity="few">nekoliko članova</item>
+    </plurals>
+    <plurals name="like_count">
+        <item quantity="one">%s lajk</item>
+        <item quantity="other">%s lajk(ov)a</item>
+        <item quantity="few">nekoliko lajkova</item>
+    </plurals>
+    <string name="title_activity_user">Detalji o korisniku</string>
+    <string name="cannot_handle_map">Ne postoji aplikacija za prikaz karte na uređaju</string>
+    <string name="action_follow">Pretplati se</string>
+    <string name="action_unfollow">Otkaži pretplatu</string>
+    <string name="title_activity_user_items">Korisnik</string>
+    <string name="title_user_shot">Šutevi od %s</string>
+    <string name="title_user_project">Projekti od %s</string>
+    <string name="title_user_follower">Pretplatnici od %s</string>
+    <string name="title_user_following">Pretplate od %s</string>
+    <string name="title_user_bucket">Kante od %s</string>
+    <string name="title_user_team">Timovi od %s</string>
+    <string name="title_user_like">Lajkovi od %s</string>
+    <string name="title_activity_team">Detalji o timu</string>
+    <string name="title_activity_project_shot">Šutevi projekta od %s</string>
+    <string name="title_activity_bucket_shot">Šutevi kante od %s</string>
+    <string name="comment_added">Komentar dodan</string>
+    <string name="sending">Šaljem ...</string>
+    <string name="general_error">Greška, pokušajte ponovno kasnije!</string>
+    <string name="comment_options">Postavke komentara</string>
+    <string name="comment_options_like">Lajkaj ovo</string>
+    <string name="comment_options_like_why">Lajkaj&amp;Odlajkaj?</string>
+    <string name="comment_options_unlike">Odlajkaj ovo</string>
+    <string name="comment_options_edit">Uredi komentar</string>
+    <string name="comment_options_delete">Obriši komentar</string>
+    <string name="comment_options_copy">Kopiraj sadržaj komentara</string>
+    <string name="comment_options_who_likes">Pogledajte kome se ovo sviđa</string>
+    <string name="text_copied_to_clipboard">Tekst kopiran u međumemoriju.</string>
+    <string name="like_comment_success">Sviđa vam se komentar</string>
+    <string name="unlike_comment_success">Komentar vam se više ne sviđa</string>
+    <string name="title_like_unlike_comment"><![CDATA[Zašto lajkati & odlajkati?]]></string>
+    <string name="message_like_unlike_comment">Dribble API ograničava 60 zahtjeva u minuti te je za svaki komentar potrebno provjeriti sviđa li vam se ili ne. Ako jedan šut ima mnogo komentara, ova radnja može dovesti do brzog prekoračenja ovog ograničenja.\nTako da odaberite sviđa li vam se ili ne komentar. Ovo možete ponoviti bezbroj puta za određeni komentar.</string>
+    <string name="got_it">U redu</string>
+    <string name="delete_comment_success">Komentar je obrisan.</string>
+    <string name="title_activity_edit_comment">Uredi komentar</string>
+    <string name="action_send">Pošalji</string>
+    <string name="comment_updated">Komentar je ažuriran.</string>
+    <string name="user_label">Droidddle</string>
+    <string name="please_login_first">Niste prijavljeni!</string>
+    <string name="default_empty_text">Nema podataka.</string>
+    <string name="like_shot_success">Šut vam se sviđa.</string>
+    <string name="unlike_shot_success">Šut vam se više ne sviđa.</string>
+    <string name="title_share_shot_with_name">%1$s od @%2$s na @dribbble s @droidddle</string>
+    <string name="title_share_shot">%1$s na @dribbble s @droidddle</string>
+    <string name="share_shot_dialog_title">Podijeli %s</string>
+    <string name="title_my_shots">Moji šutevi</string>
+    <string name="title_my_following_shots">Moji pretplaćeni šutevi</string>
+    <string name="title_my_buckets">Moje kante</string>
+    <string name="title_my_projects">Moji projekti</string>
+    <string name="title_my_likes">Moji lajkovi</string>
+    <string name="title_my_teams">Moji timovi</string>
+    <string name="title_activity_view_image">Detalji o slici</string>
+    <string name="add_action_shot">Stvori šut</string>
+    <string name="add_action_bucket">Stvori kantu</string>
+    <string name="title_activity_create_bucket">Stvori kantu</string>
+    <string name="hint_bucket_name">Ime (obavezno)</string>
+    <string name="hint_bucket_description">Opis</string>
+    <string name="bucket_created">Kanta stvorena.</string>
+    <string name="action_add_to_bucket">Dodaj u kantu</string>
+    <string name="title_activity_add_to_bucket">Odaberi kantu</string>
+    <string name="shot_add_to_bucket_success">Šut je dodan u kantu.</string>
+    <string name="shot_removed_from_bucket">Šut je obrisan iz kante.</string>
+    <string name="bucket_removed">Kanta je obrisana.</string>
+    <string name="bucket_removed_tips">Kanta obrisana.</string>
+    <string name="shot_removed">Šut obrisan.</string>
+    <string name="title_activity_create">Stvori ...</string>
+    <string name="download">Idi na skidanja</string>
+    <string name="download_from_play_title">Aplikaciju je potrebno ažurirati</string>
+    <string name="download_from_play_message">Ova verzija ne može pravilno funkcionirati, molimo ažurirajte aplikaciju na Google Playu.</string>
+    <string name="check_network">Provjerite mrežnu vezu.</string>
+    <string name="about_summary">Verzija %1$s</string>
+    <string name="back_again_to_exit">Pritisnite natrag za izlazak.</string>
+    <string name="sdcard_not_available">SD kartica nedostupna, nemoguće skinuti datoteku.</string>
+    <string name="download_tips">Skini u mapu: %1$s</string>
+    <string name="tap_to_login">Dodirnite za prijavu</string>
+    <string name="hint_shot_tags">Oznake, odvojene zarezima</string>
+    <string name="hint_shot_title">Naslov (obavzno)</string>
+    <string name="hint_shot_description">Opis</string>
+    <string name="select_image_label">Odaberi sliku</string>
+    <string name="shot_updated">Šut je ažuriran.</string>
+    <string name="shot_created">Šut je stvoren.</string>
+    <string name="creating">Šaljem ...</string>
+    <string name="internal_storage">Unutarnja pohrana</string>
+    <string name="crop_image">Obreži sliku</string>
+    <string name="title_activity_about">O aplikaciji Droidddle</string>
+    <string name="luancher_icon_thanks">Posebna zahvala\n\nJovie Brett (https://dribbble.com/bretbardolees) za predivnu ikonu u pokretaču i vrijedne UI savjete.\nTaylor Ling (https://dribbble.com/taylorling) za regrutiranje mene kao igrača kako bi se stvorila opcija stvaranja šuteva.\nTaylor Ling za zadani brojčanik za  Wear http://goo.gl/TzbBte\nRoman Nurik za stvaranje predivne pozadinske slike http://muzei.co, brojčanik za Wear temeljen na aplikaciji Muzei.</string>
+    <string name="translate_credit">Zasluge za prijevod aplikacije</string>
+    <string name="title_activity_create_shot">Stvori šut</string>
+    <string name="discard_tips">Želite li odbaciti ovo?</string>
+    <string name="shot_image_file_missing">Odaberite sliku šuta</string>
+    <string name="create_shot_tips">Stvaranje šuta odvija se asinkrono. Može potrajati i do nekoliko
+        minuta da biste ga vidjeli.</string>
+    <string name="change_log_text">Popis promjena</string>
+    <string name="title_activity_update_bucket">Uredi kantu</string>
+    <string name="title_activity_update_shot">Uredi šut</string>
+    <string name="bucket_updated">Kanta ažurirana.</string>
+    <string name="shot_removed_tips">Šut obrisan.</string>
+    <string name="action_add_attachment">Dodaj privitak</string>
+    <string name="attach_file_is_missing">Datoteka nedostaje.</string>
+    <string name="attach_file_is_large">Datoteka je veća od 10 MB.</string>
+    <string name="upload_attachment_title">Dodaj privitak</string>
+    <string name="upload_attachment_message">Želite li prenijeit %1$s kao privitak.</string>
+    <string name="create_attachment_success">Privitak stvoren.</string>
+    <string name="creating_attachment">Prenosim ... \nOBAVIJEST: Stvaranje privitka odvija se asinkrono. Može potrajati i do nekoliko da biste ga vidjeli.</string>
+    <string name="pick_file_tips">Odaberi privitak.</string>
+    <string name="delete_attach_dialog_title">Obriši privitak</string>
+    <string name="delete_attach_dialog_message">Želite li obrisati ovaj privitak ?</string>
+    <string name="delete">obriši</string>
+    <string name="attach_file_deleted">Privitak obrisan.</string>
+    <string name="deleting">Brišem ...</string>
+    <string name="comments_text">Komentari (%s)</string>
+    <string name="attachment_text">Privitci (%s)</string>
+    <string name="likes_text">Lajkovi (%s)</string>
+    <string name="buckets_text">Kante (%s)</string>
+    <string name="projects_text">Projekti</string>
+    <string name="rebounds_text">Skokovi (%s)</string>
+    <string name="opening">Otvaram ...</string>
+    <string name="title_activity_search">Pretraži šuteve</string>
+    <string name="action_search">Pretraži šut</string>
+    <string name="search_hint">Pretraži šut</string>
+    <string name="launch_user_failed">Ne mogu prikupiti podatke o korisniku.</string>
+    <string name="action_search_order">Redoslijed pretrage</string>
+    <string name="action_edit">Uredi</string>
+    <string name="action_delete">Obriši</string>
+    <string name="dialog_delete_title">Obriši</string>
+    <string name="dialog_delete_shot_msg">Želite li obrisati šut?</string>
+    <string name="dialog_delete_bucket_msg">Želite li obrisati kantu?</string>
+    <string name="action_remove_from_bucket">Ukloni iz kante</string>
+    <string name="twitter">Twitter</string>
+    <string name="www">Web</string>
+    <string name="shots_text">Šutevi (%s)</string>
+    <string name="followers_text">Pretplatnici (%s)</string>
+    <string name="followings_text">Pretplate (%s)</string>
+    <string name="projects_text_with_number">Projekti (%s)</string>
+    <string name="teams_text">Timovi (%s)</string>
+    <string name="pref_title_send_by_shot">Dodaj potpis na šut</string>
+    <string name="pref_description_send_by_shot">Dodaj \"poslano preko @droidddle\" u opis šuta.</string>
+    <string name="pref_description_send_by_comment">Dodaj \"poslano preko @droidddle\" na komentar.</string>
+    <string name="pref_title_send_by_comment">Dodaj potpis na komentar</string>
+    <string name="send_by_text">\n\n — poslano preko @droidddle</string>
+    <string name="members_text">Članovi (%s)</string>
+    <string name="pick_image_error">Nije moguće učitati odabranu slinu, pokušajte ponovno!</string>
+    <string name="pref_title_about_like">O lajkanju šuteva &amp; komentara</string>
+    <string name="message_like_status">Dribble API ograničava 60 zahtjeva u minuti te je za svaki šut/komentar potrebno provjeriti sviđa li vam se ili ne. Kada pregledavate/skrolate kroz šuteve, ovo može dovesti do brzog dostizanja tog ograničenja.\nTako da ne provjeravamo status lajkova za šuteve/komentare, ako želite lajkati šut samo pritisnite lajk gumb; opet pritisnite kako biste odlajkatli šut.</string>
+    <string name="action_save">Spremi</string>
+    <string name="pref_title_theme">Tema</string>
+    <string name="action_filter_time">Odaberi vremensko razdoblje</string>
+    <string name="time_filter_now">Sada</string>
+    <string name="time_filter_week">Prošli Tjedan</string>
+    <string name="time_filter_month">Prošli Mjesec</string>
+    <string name="time_filter_year">Prošla Godina</string>
+    <string name="time_filter_every">Oduvijek</string>
+    <string name="muzei_popular_source_description">Popularni šutevi s Dribbblea</string>
+    <string name="muzei_popular_source_name">Popularni šutevi</string>
+    <string name="please_login_to_using_wallpaper">Potrebna je prijava u Droidddle aplikaciju za dohvat popularnih šuteva</string>
+    <string name="please_login_to_using_wallpaper1">Potrebna prijava u Droiddle aplikaciju za dohvat šuteva!</string>
+    <string name="action_share_shot">Podijeli šut</string>
+    <string name="popular_shot_source_action_view">Pogledaj šut</string>
+    <string name="action_login">Prijava na Droidddle</string>
+    <string name="muzei_source_error_no_shot_to_share">Nema šuteva za podijeliti.</string>
+    <string name="muzei_bucket_source_description">Novi šut svaki dan</string>
+    <string name="muzei_bucket_source_name">Istaknuti šut</string>
+    <string name="pref_title_following_check">Učestalost provjere pretplate</string>
+    <string name="pref_summary_following_check">Koliko često se provjerava jesu li dostupni šutevi, veća učestalost će potrošiti više podataka i baterije.</string>
+    <string name="notification_new_shots_title">Novih šuteva: %s</string>
+    <string name="open_in_browser">Odaberi preglednik</string>
+    <string name="tips_open_in_browser">Nemoguće obraditi, otvorite u pregledniku.</string>
+    <string name="navdrawer_item_other">Ostalo</string>
+    <string name="donation">Paypal: admin@goodev.org \nU slučaju da mi želite kupiti pivo. Dodirnite kako biste kopirali adresu.</string>
+    <string name="donation_label">Paypal adresa</string>
+    <string name="donation_copy_tip">Paypal adresa kopirana u međumemoriju.</string>
+    <string-array name="search_sort_entry">
+        <item>Popularno</item>
+        <item>Nedavno</item>
+        <item>Korisnik</item>
+    </string-array>
+    <string-array name="shots_sort_entry">
+        <item>Popularno</item>
+        <item>Nedavno</item>
+        <item>Najgledanije</item>
+        <item>Najkomentiranije</item>
+    </string-array>
+    <string-array name="shots_timeframe_entry">
+        <item>Sada</item>
+        <item>Prošli Tjedan</item>
+        <item>Prošli Mjesec</item>
+        <item>Prošla Godina</item>
+        <item>Oduvijek</item>
+    </string-array>
+    <string-array name="shots_list_entry">
+        <item>Šutevi</item>
+        <item>Timski Šutevi</item>
+        <item>Debiji</item>
+        <item>Doigravanja</item>
+        <item>Skokovi</item>
+        <item>Animirani GIF-ovi</item>
+        <item>S Privicima</item>
+    </string-array>
+    <string-array name="shot_details_pager_entry">
+        <item>Komentari</item>
+        <item>Oznake</item>
+        <item>Privici</item>
+        <item>Kante</item>
+        <item>Lajkovi</item>
+        <item>Projekt</item>
+        <item>Tim</item>
+        <item>Skok</item>
+    </string-array>
+    <string-array name="pref_following_check_titles">
+        <item>Nikad ne provjeravaj</item>
+        <item>10 Minuta</item>
+        <item>30 Minuta</item>
+        <item>1 Sat</item>
+        <item>2 Sata</item>
+        <item>4 Sata</item>
+        <item>1 Dan</item>
+    </string-array>
+    <string name="pref_title_orientation">Orijentacija zaslona</string>
+    <string-array name="pref_orientation_list_titles">
+        <item>Automatski</item>
+        <item>Okomito</item>
+        <item>Položeno</item>
+    </string-array>
+    <string name="pref_title_upgrade_pro">Nadogradi na PRO</string>
+    <string name="pref_description_upgrade_pro">PRO verzija aplikacije uključuje dodatne mogućnosti.</string>
+    <string name="pref_title_translate">Pomozite prevesti ovu aplikaciju</string>
+    <string name="pref_title_rate">Ocijenite s pet zvjezdica na Google Playu</string>
+    <string name="pref_title_about">Više o</string>
+    <string name="translate_title">Prijevod</string>
+    <string name="translate_button">Otvori preglednik</string>
+    <string name="translate_message">Koristimo uslugu OneSkyApp za prijevod ove aplikacije. Otvorite https://goodev.oneskyapp.com u vašem pregledniku, naći ćete dva projekta, jedan s kineskog na vaš jezik i drugi s engleskog na vaš jezik.</string>
+    <string name="pref_title_cleaner_shot_item">Sažeti prikaz</string>
+    <string name="pref_description_cleaner_shot_item">Isprazni prikaz kako bi se vidjeli šutevi</string>
+    <string name="about_droidddle"><![CDATA[
+Droidddle je klijent za Dribbble.com.
+★★★★★Mogućnosti:★★★★★
+* Pretražite šuteve na Dribbbleu
+* Stvorite šuteve na Dribbbleu
+* Pregledajte, Komentirajte, Lajkajte šuteve na Dribbbleu
+* Zumirajte slike
+* Pregledajte animirane GIF-ove
+* Pretplatite se na Igrače na Dribbbleu
+* Stvorite kantu na Dribbbleu
+* Podijelite šut na Dribbbleu
+* Mnogo više mogućnosti koje čekaju na vas da ih istražite
+
+Ako vam se sviđa Droidddle, molim vas da ga ocijenite s ★★★★★, Hvala!!!!!
+        ]]></string>
+    <string name="download_service">Skini sliku usluge</string>
+    <string name="title_activity_manage_space">Upravljanje podacima</string>
+    <string name="pref_title_clear_cache_data">Očisti predmemoriju</string>
+    <string name="pref_description_clear_cache_data">Očistite predmemoriju aplikacije ( %1$s )</string>
+    <string name="pref_title_clear_download_image_data">Očisti sliku šuta</string>
+    <string name="pref_description_clear_download_image_data">Očisti sve skinute slike šuteva ( %1$s )</string>
+    <string name="dialog_delete_file">Brišem datoteke ...</string>
+    <string name="dialog_delete_message">Želite li obrisati sve te datoteke?</string>
+    <string name="dialog_title_clear_images">Obriši slike šuteva</string>
+    <string name="dialog_message_clear_images">Želite li obrisati sve slike šuteva?</string>
+    <string name="dialog_title_clear_cache">Obriši predmemoriju</string>
+    <string name="dialog_message_clear_cache">Želite li obrisati sve datoteke predmemorije?</string>
+    <string name="pref_title_manage_space">Upravljanje prostorom</string>
+    <string-array name="pref_theme_list_titles">
+        <item>Zadano</item>
+        <item>Crno (prava crna za AMOLED zaslone)</item>
+        <item>Ljubičasto</item>
+        <item>Žuto</item>
+        <item>Plavo</item>
+        <item>Zeleno</item>
+        <item>Plavozeleno</item>
+    </string-array>
+    <string-array name="refresh_entries">
+        <item>ručno</item>
+        <item>5 minuta</item>
+        <item>15 minuta</item>
+        <item>30 minuta</item>
+        <item>1 sat</item>
+        <item>dnevno</item>
+    </string-array>
+    <string name="title_activity_configure_shot_widget">Odaberite interval ažuriranja</string>
+    <string name="shot_widget_empty">Učitavam ...</string>
+    <string name="shot_widget_title">Najnoviji šutevi</string>
+    <string name="not_login">Prijavite se da biste vidjeli podatke</string>
+    <string name="title_activity_survey">Zaradi nagrade kroz ankete</string>
+    <string name="no_survey">Anketa trenutno nije dostupna</string>
+    <string name="title_survey_rewards">Anketne nagrade</string>
+    <string name="title_activity_settings">Postavke</string>
+</resources>

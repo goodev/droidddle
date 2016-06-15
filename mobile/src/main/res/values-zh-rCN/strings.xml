@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">追波</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="action_settings">设置</string>
+    <string name="action_share">分享</string>
+    <string name="action_like">喜欢</string>
+    <string name="oauth_canceled">认证被取消了</string>
+    <string name="prefile_username">%1$s (%2$s)</string>
+    <string name="prefile_followers">"粉丝 %1$s"</string>
+    <string name="prefile_followings">"关注 %1$s"</string>
+    <string name="prefile_shots">"作品      %1$s"</string>
+    <string name="navdrawer_item_home">首页</string>
+    <string name="navdrawer_item_profile">个人资料</string>
+    <string name="navdrawer_item_shots">我的作品</string>
+    <string name="navdrawer_item_following">关注</string>
+    <string name="navdrawer_item_buckets">我的作品集</string>
+    <string name="navdrawer_item_projects">项目</string>
+    <string name="navdrawer_item_teams">团队</string>
+    <string name="navdrawer_item_likes">喜欢</string>
+    <string name="navdrawer_item_followers">粉丝</string>
+    <string name="navdrawer_item_settings">设置</string>
+    <string name="navdrawer_item_download">下载的图片</string>
+    <string name="navdrawer_item_profile_title">我的 …</string>
+    <string name="title_activity_shot_details">作品详情</string>
+    <string name="add_comment_hit">添加评论</string>
+    <string name="default_location">地球</string>
+    <string name="shot_rebound_source">再次创作…</string>
+    <plurals name="shot_count">
+        <item quantity="other">%s 作品</item>
+    </plurals>
+    <plurals name="project_count">
+        <item quantity="other">%s 项目</item>
+    </plurals>
+    <plurals name="follower_count">
+        <item quantity="other">%s 粉丝</item>
+    </plurals>
+    <plurals name="following_count">
+        <item quantity="other">%s 关注</item>
+    </plurals>
+    <plurals name="bucket_count">
+        <item quantity="other">%s 作品集</item>
+    </plurals>
+    <plurals name="team_count">
+        <item quantity="other">%s 团队</item>
+    </plurals>
+    <plurals name="member_count">
+        <item quantity="other">%s 成员</item>
+    </plurals>
+    <plurals name="like_count">
+        <item quantity="other">%s 喜欢</item>
+    </plurals>
+    <string name="title_activity_user">用户详情</string>
+    <string name="cannot_handle_map">你没有安装地图应用</string>
+    <string name="action_follow">关注</string>
+    <string name="action_unfollow">取消关注</string>
+    <string name="title_activity_user_items">用户</string>
+    <string name="title_user_shot">%s 的作品</string>
+    <string name="title_user_project">%s 的项目</string>
+    <string name="title_user_follower">%s 的粉丝</string>
+    <string name="title_user_following">%s 的关注</string>
+    <string name="title_user_bucket">%s 的作品集</string>
+    <string name="title_user_team">%s 的团队</string>
+    <string name="title_user_like">%s 的喜欢</string>
+    <string name="title_activity_team">团队信息</string>
+    <string name="title_activity_project_shot">%s 项目的作品</string>
+    <string name="title_activity_bucket_shot">%s 作品集包含的作品</string>
+    <string name="comment_added">评论已发布</string>
+    <string name="sending">发送中…</string>
+    <string name="general_error">出错了，请重试！</string>
+    <string name="comment_options">评论操作</string>
+    <string name="comment_options_like">喜欢</string>
+    <string name="comment_options_like_why">喜欢和不喜欢？</string>
+    <string name="comment_options_unlike">取消喜欢</string>
+    <string name="comment_options_edit">编辑评论</string>
+    <string name="comment_options_delete">删除评论</string>
+    <string name="comment_options_copy">复制评论文字</string>
+    <string name="comment_options_who_likes">查看哪些人喜欢该评论</string>
+    <string name="text_copied_to_clipboard">文本已复制到剪贴板</string>
+    <string name="like_comment_success">评论已喜欢</string>
+    <string name="unlike_comment_success">评论已删除喜欢</string>
+    <string name="title_like_unlike_comment"><![CDATA[为何同时有喜欢和不喜欢选项？]]></string>
+    <string name="message_like_unlike_comment">因为 Dribbble api 每分钟只能请求60次，检查是否喜欢一个评论需要额外一次请求，如果一个作品有很多评论，则会导致超过 api 请求限制，这样就无法请求其他数据了。</string>
+    <string name="got_it">我知道了</string>
+    <string name="delete_comment_success">评论已被删除</string>
+    <string name="title_activity_edit_comment">编辑评论</string>
+    <string name="action_send">发送</string>
+    <string name="comment_updated">评论已被更新</string>
+    <string name="user_label">追波</string>
+    <string name="please_login_first">尚未登录！</string>
+    <string name="default_empty_text">没有数据</string>
+    <string name="like_shot_success">喜欢作品成功！</string>
+    <string name="unlike_shot_success">取消喜欢作品成功。</string>
+    <string name="title_share_shot_with_name">%1$s 由作者 @%2$s 通过 @droidddle 在 @dribbble 上分享</string>
+    <string name="title_share_shot">"%1$s 通过 @droidddle 分享来自 @dribbble 的图片。 "</string>
+    <string name="share_shot_dialog_title">分享 %s</string>
+    <string name="title_my_shots">我的作品</string>
+    <string name="title_my_following_shots">我关注的作品</string>
+    <string name="title_my_buckets">我的作品集</string>
+    <string name="title_my_projects">我的项目</string>
+    <string name="title_my_likes">我喜欢的作品</string>
+    <string name="title_my_teams">我的团队</string>
+    <string name="title_activity_view_image">查看图片</string>
+    <string name="add_action_shot">创建作品</string>
+    <string name="add_action_bucket">创建作品集</string>
+    <string name="title_activity_create_bucket">创建作品集</string>
+    <string name="hint_bucket_name">名字（必须）</string>
+    <string name="hint_bucket_description">描述</string>
+    <string name="bucket_created">作品集创建成功。</string>
+    <string name="action_add_to_bucket">添加到作品集</string>
+    <string name="action_download">下载</string>
+    <string name="title_activity_add_to_bucket">选择一个作品集</string>
+    <string name="shot_add_to_bucket_success">作品已添加到作品集</string>
+    <string name="shot_removed_from_bucket">作品已从作品集删除。</string>
+    <string name="bucket_removed">作品集已被删除。</string>
+    <string name="bucket_removed_tips">作品集已被删除。</string>
+    <string name="shot_removed">作品已被删除。</string>
+    <string name="title_activity_create">创建中 …</string>
+    <string name="download">去下载</string>
+    <string name="download_from_play_title">该应用需要更新</string>
+    <string name="download_from_play_message">该版本无法继续使用了，请从 Google Play 下载</string>
+    <string name="check_network">检测设备是否联网。</string>
+    <string name="about_summary">版本 %1$s</string>
+    <string name="back_again_to_exit">再次点击返回退出应用</string>
+    <string name="sdcard_not_available">SDCard 不可用，无法下载文件。</string>
+    <string name="download_tips">文件下载目录: %1$s</string>
+    <string name="tap_to_login">点击登录</string>
+    <string name="hint_shot_tags">标签，用英文逗号分割</string>
+    <string name="hint_shot_title">标题（必须）</string>
+    <string name="hint_shot_description">描述</string>
+    <string name="select_image_label">选择一个图片</string>
+    <string name="shot_updated">作品已更新。</string>
+    <string name="shot_created">作品已创建。</string>
+    <string name="creating">发送中 …</string>
+    <string name="internal_storage">内部存储</string>
+    <string name="crop_image">裁剪图片</string>
+    <string name="title_activity_about">关于 追波（Droidddle）</string>
+    <string name="luancher_icon_thanks">特别感谢\n\nJovie Brett (https://dribbble.com/bretbardolees )制作的如此精美的启动图标和其他UI改进建议。\nTaylor Ling (https://dribbble.com/taylorling) 邀请我成为正式会员得以开发发布Shot的功能。\nTaylor Ling 允许使用默认表盘图片http://goo.gl/TzbBte\nRoman Nurik 制作了如此漂亮的壁纸应用 http://muzei.co, 表盘功能基于Muzei 制作。</string>
+    <string name="translate_credit">翻译人员</string>
+    <string name="title_activity_create_shot">创建作品</string>
+    <string name="discard_tips">确定丢弃该内容？</string>
+    <string name="shot_image_file_missing">请选择一个作品图片。</string>
+    <string name="create_shot_tips">Dribbble 在后台创建作品。
+创建成功后可能需要几分钟后才可以看到新的作品。</string>
+    <string name="change_log_text">版本发布记录</string>
+    <string name="title_activity_update_bucket">编辑作品集</string>
+    <string name="title_activity_update_shot">编辑作品</string>
+    <string name="bucket_updated">作品集已更新</string>
+    <string name="shot_removed_tips">作品已删除。</string>
+    <string name="action_add_attachment">添加附件</string>
+    <string name="attach_file_is_missing">文件不存在，请从新选择。</string>
+    <string name="attach_file_is_large">文件大于 10 M 。</string>
+    <string name="upload_attachment_title">添加一个附件</string>
+    <string name="upload_attachment_message">确定上传文件 %1$s 为附件？</string>
+    <string name="create_attachment_success">附件已上传。</string>
+    <string name="creating_attachment">上传中 …  \n注意：Dribbble 在后台处理附件，新上传的附件可能需要过几分钟才可以看到。</string>
+    <string name="pick_file_tips">选择附件文件。</string>
+    <string name="delete_attach_dialog_title">删除附件</string>
+    <string name="delete_attach_dialog_message">确定删除该附件？</string>
+    <string name="delete">删除</string>
+    <string name="attach_file_deleted">附件已删除</string>
+    <string name="deleting">"删除中 … "</string>
+    <string name="comments_text">评论 (%s)</string>
+    <string name="attachment_text">附件 (%s)</string>
+    <string name="likes_text">喜欢 (%s)</string>
+    <string name="buckets_text">作品集(%s)</string>
+    <string name="projects_text">项目</string>
+    <string name="rebounds_text">再创作(%s)</string>
+    <string name="opening">打开中 …</string>
+    <string name="title_activity_search">搜索作品</string>
+    <string name="action_search">搜索作品</string>
+    <string name="search_hint">搜索作品</string>
+    <string name="launch_user_failed">无法获取用户数据。</string>
+    <string name="action_search_order">搜索排序</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_delete">删除</string>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_shot_msg">确定删除该作品？</string>
+    <string name="dialog_delete_bucket_msg">确定删除该作品集？</string>
+    <string name="action_remove_from_bucket">从作品集中删除</string>
+    <string name="twitter">Twitter</string>
+    <string name="www">网站</string>
+    <string name="shots_text">作品(%s)</string>
+    <string name="followers_text">粉丝 (%s)</string>
+    <string name="followings_text">关注 (%s)</string>
+    <string name="projects_text_with_number">项目 (%s)</string>
+    <string name="teams_text">团队 (%s)</string>
+    <string name="pref_title_send_by_shot">在作品描述中添加签名</string>
+    <string name="pref_description_send_by_shot">在作品描述中 添加 \"发至 @droidddle\" 。</string>
+    <string name="pref_description_send_by_comment">在评论中 添加 \"发至 @droidddle\" 。</string>
+    <string name="pref_title_send_by_comment">在评论中添加签名</string>
+    <string name="send_by_text">" — 通过 @droidddle 发送"</string>
+    <string name="members_text">成员 (%s)</string>
+    <string name="pick_image_error">无法加载图片，请重试！</string>
+    <string name="pref_title_about_like">关于喜欢喝评论的状态问题</string>
+    <string name="message_like_status">因为 Dribbble api 每分钟只能请求60次，检查是否喜欢一个评论需要额外一次请求， 如果一个作品有很多评论，则会导致超过 api 请求限制， 这样就无法请求其他数据了。\n你可以喜欢或者不喜欢一个评论或者作品多次。 如果你想喜欢一个作品或者评论，就点击喜欢按钮，如果想取消喜欢，则先喜欢后再取消喜欢。</string>
+    <string name="action_save">保存</string>
+    <string name="pref_title_theme">主题</string>
+    <string name="action_filter_time">选择时间范围</string>
+    <string name="time_filter_now">当前</string>
+    <string name="time_filter_week">一周内</string>
+    <string name="time_filter_month">一月内</string>
+    <string name="time_filter_year">一年内</string>
+    <string name="time_filter_every">时间不限</string>
+    <string name="muzei_popular_source_description">流行的作品</string>
+    <string name="muzei_popular_source_name">流行的作品</string>
+    <string name="please_login_to_using_wallpaper">您需要登录并授权该应用后才可以访问流行的作品</string>
+    <string name="please_login_to_using_wallpaper1">您需要登录并授权该应用后才可以访问作品</string>
+    <string name="action_share_shot">分享该作品</string>
+    <string name="popular_shot_source_action_view">查看</string>
+    <string name="action_login">登录</string>
+    <string name="muzei_source_error_no_shot_to_share">暂时无法分享</string>
+    <string name="muzei_bucket_source_description">每天一个美丽的作品</string>
+    <string name="muzei_bucket_source_name">精选作品美图</string>
+    <string name="pref_title_following_check">关注更新检查频率</string>
+    <string name="pref_summary_following_check">多久检查一次是否有关注的 作品发布，时间越短越消耗电量和流量。如果您关注的人比较少，可以设置时间间隔大些。</string>
+    <string name="notification_new_shots_title">%s 新作品</string>
+    <string name="open_in_browser">选择浏览器</string>
+    <string name="tips_open_in_browser">无法处理该链接，请在浏览器中打开。</string>
+    <string name="navdrawer_item_other">其他</string>
+    <string name="donation">支付宝：rain.hust@gmail.com\n如果您喜欢这个应用，可以通过支付宝来支持我。点击复制支付宝地址。非常感谢您的支持</string>
+    <string name="donation_label">支付宝地址</string>
+    <string name="donation_copy_tip">支付宝地址已复制。</string>
+    <string-array name="search_sort_entry">
+        <item>最热</item>
+        <item>最新</item>
+        <item>设计师</item>
+    </string-array>
+    <string-array name="shots_sort_entry">
+        <item>最热</item>
+        <item>最新</item>
+        <item>阅读最多</item>
+        <item>评论最多</item>
+    </string-array>
+    <string-array name="shots_timeframe_entry">
+        <item>现在</item>
+        <item>过去一周</item>
+        <item>过去一月</item>
+        <item>过去一年</item>
+        <item>所有时间</item>
+    </string-array>
+    <string-array name="shots_list_entry">
+        <item>作品</item>
+        <item>团队作品</item>
+        <item>首秀</item>
+        <item>每季精品</item>
+        <item>再创作</item>
+        <item>GIF 动画</item>
+        <item>带有附件</item>
+    </string-array>
+    <string-array name="shot_details_pager_entry">
+        <item>评论</item>
+        <item>标签</item>
+        <item>附件</item>
+        <item>篮筐</item>
+        <item>喜欢</item>
+        <item>项目</item>
+        <item>团队</item>
+        <item>再创作</item>
+    </string-array>
+    <string-array name="pref_following_check_titles">
+        <item>从不检查</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>4小时</item>
+        <item>1天</item>
+    </string-array>
+    <string name="pref_title_orientation">屏幕方向</string>
+    <string-array name="pref_orientation_list_titles">
+        <item>跟随系统</item>
+        <item>竖屏</item>
+        <item>横屏</item>
+    </string-array>
+    <string name="pref_title_upgrade_pro">升级到专业版</string>
+    <string name="pref_description_upgrade_pro">专业版包含其他额外功能并没有广告。</string>
+    <string name="pref_title_translate">帮助翻译该应用</string>
+    <string name="pref_title_rate">赏赐个五星好评</string>
+    <string name="pref_title_about">关于</string>
+    <string name="translate_title">翻译</string>
+    <string name="translate_button">在浏览器中打开</string>
+    <string name="translate_message">我们使用 OneSkyApp 网站来翻译该项目，您可以在浏览器中打开 https://goodev.oneskyapp.com 来参与翻译。</string>
+    <string name="pref_title_cleaner_shot_item">精简模式</string>
+    <string name="pref_description_cleaner_shot_item">精简浏览模式</string>
+    <string name="about_droidddle"><![CDATA[
+Droidddle is a Dribbble.com client.
+★★★★★Features:★★★★★
+* Search shots on Dribbble
+* Create shot on Dribbble
+* Browse, Comment, Like shots on Dribbble
+* Zoom in/out image
+* View animated GIFs
+* Follow Players on Dribbble
+* Create bucket on Dribbble
+* Share shot on Dribbble
+* A lot of other functions wait for you exploring
+
+If you like it, please rate ★★★★★, Thank you!!!!!
+        ]]></string>
+    <string name="download_service">图片下载服务</string>
+    <string name="title_activity_manage_space">管理数据</string>
+    <string name="pref_title_clear_cache_data">清除缓存数据</string>
+    <string name="pref_description_clear_cache_data">清除应用缓存数据 ( %1$s )</string>
+    <string name="pref_title_clear_download_image_data">清除作品图片</string>
+    <string name="pref_description_clear_download_image_data">清除所有下载的作品图 ( %1$s )</string>
+    <string name="dialog_delete_file">文件删除中 …</string>
+    <string name="dialog_delete_message">确认删除这些文件？</string>
+    <string name="dialog_title_clear_images">删除作品图片</string>
+    <string name="dialog_message_clear_images">确认删除所有作品的图片？</string>
+    <string name="dialog_title_clear_cache">删除缓存</string>
+    <string name="dialog_message_clear_cache">确认删除所有缓存数据？</string>
+    <string name="pref_title_manage_space">管理应用数据</string>
+    <string-array name="pref_theme_list_titles">
+        <item>默认</item>
+        <item>黑色(在AMOLED屏幕上省电)</item>
+        <item>紫色</item>
+        <item>琥珀色</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>鸭绿色</item>
+    </string-array>
+    <string-array name="refresh_entries">
+        <item>手工检查</item>
+        <item>5分钟</item>
+        <item>15分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>一天</item>
+    </string-array>
+    <string name="title_activity_configure_shot_widget">选择刷新频率</string>
+    <string name="shot_widget_empty">加载中 …</string>
+    <string name="shot_widget_title">最新的 Shots</string>
+    <string name="not_login">您尚未登录</string>
+    <string name="no_survey">目前没有可用的调查，请明天再来</string>
+    <string name="title_survey_rewards">精品推荐</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="ad_sponsored">赞助商</string>
+    <string name="title_activity_survey">感谢支持</string>
+    <string name="rate_text"><b>您开心，我快乐！</b></string>
+    <string name="rate_subtext">请在商店赏个五星好评吧！谢谢您的支持！</string>
+    <string name="rate">去评论</string>
+    <string name="remind">下次吧</string>
+    <string name="no">不，谢谢</string>
+    <string name="dontask">不再显示</string>
+    <string name="about_ads_text"><b>注意</b>\n\n我在业余时间开发了这个应用，
+        无数个夜晚和周末的编写代码。如果您喜欢该应用，可以通过广告来支持我。如果您不想
+        在正文中看到广告，可以通过下面的开关来关闭广告，但是您依然可以通过“精品推荐”来
+        支持我。非常谢谢！
+    </string>
+    <string name="item_ads_text"><b>注意</b>\n\n我在业余时间开发了这个应用，
+        无数个夜晚和周末的编写代码。如果您喜欢该应用，可以通过广告来支持我。非常感谢您的支持！
+    </string>
+    <string name="login_on_browser_tips">请在浏览器中完成登录</string>
+    <string name="login_canceled">登录取消了</string>
+</resources>

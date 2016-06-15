@@ -1,0 +1,1 @@
+include ':mobile', ':preferencefragment', ':crop_image', ':ChangeLogLibrary', ':seekbar-compat', ':colorpicker'

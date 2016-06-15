@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.goodev.droidddle.UserActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/keyline_1">
+
+        <org.goodev.droidddle.drawee.TranslateDraweeView
+            android:id="@+id/user_image"
+            android:layout_width="@dimen/navdrawer_profile_image_size"
+            android:layout_height="@dimen/navdrawer_profile_image_size"
+            android:layout_marginLeft="@dimen/keyline_1"
+            android:layout_marginTop="@dimen/keyline_1"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:placeholderImage="@drawable/person_image_empty"
+            fresco:roundAsCircle="true"
+            fresco:roundingBorderWidth="1dp"
+            fresco:roundingBorderColor="#3ddd" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/keyline_1_minus_8dp"
+            android:layout_marginLeft="@dimen/keyline_1"
+            android:layout_marginRight="@dimen/keyline_1"
+            android:layout_marginTop="@dimen/keyline_1_minus_8dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+        <TextView
+            android:id="@+id/user_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/keyline_1"
+            android:layout_marginRight="@dimen/keyline_1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/keyline_1_minus_8dp"
+            android:layout_marginLeft="@dimen/keyline_1"
+            android:layout_marginRight="@dimen/keyline_1"
+            android:layout_marginTop="@dimen/keyline_1_minus_8dp"
+            android:background="@color/gray_background" />
+
+        <TextView
+            android:id="@+id/user_location"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_location_24dp" />
+
+        <TextView
+            android:id="@+id/user_homepage"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_homepage" />
+
+        <TextView
+            android:id="@+id/user_twitter"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_twitter" />
+
+        <TextView
+            android:id="@+id/user_shots"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_shots" />
+
+        <TextView
+            android:id="@+id/user_team"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_team" />
+
+        <TextView
+            android:id="@+id/user_projects"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_shot_project" />
+
+        <TextView
+            android:id="@+id/user_followers"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_followers" />
+
+        <TextView
+            android:id="@+id/user_followings"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_followings" />
+
+        <TextView
+            android:id="@+id/user_buckets"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_shot_buckets" />
+
+
+        <TextView
+            android:id="@+id/user_likes"
+            style="@style/TextUserDetailAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_shot_likes" />
+
+    </LinearLayout>
+</ScrollView>

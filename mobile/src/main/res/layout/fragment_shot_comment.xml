@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.goodev.droidddle.frag.shot.ShotCommentFragment">
+
+    <LinearLayout
+        android:id="@+id/shot_comment_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/keyline_1"
+        android:paddingTop="@dimen/keyline_1_minus_8dp">
+
+        <EditText
+            android:id="@+id/shot_comment_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/add_comment_hit"
+            android:maxLines="4"
+            android:minLines="1"
+            android:textColor="@color/body_text_1"
+            android:textSize="@dimen/text_size_large" />
+
+        <ImageButton
+            android:id="@+id/shot_comment_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="?selectableItemBackground"
+            android:contentDescription="@string/action_send"
+            android:enabled="false"
+            android:paddingBottom="@dimen/keyline_1_minus_8dp"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1"
+            android:paddingTop="@dimen/keyline_1_minus_8dp"
+            android:src="@drawable/ic_send_disable" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/shot_comment_edit_layout"
+        android:layout_alignParentTop="true">
+
+        <org.goodev.droidddle.widget.OverScrollRecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false" />
+
+        <include
+            android:id="@+id/empty"
+            layout="@layout/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <org.goodev.droidddle.widget.ProgressView
+            android:id="@+id/loading"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+</RelativeLayout>

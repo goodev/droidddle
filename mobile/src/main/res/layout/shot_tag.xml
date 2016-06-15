@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@+id/shot_tag"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/shot_action_height"
+    android:layout_marginRight="@dimen/keyline_1_minus_8dp"
+    android:background="@drawable/bg_comment_button"
+    android:drawablePadding="@dimen/keyline_1_minus_12dp"
+    android:gravity="center"
+    android:minWidth="52dp"
+    android:paddingLeft="@dimen/keyline_1_minus_8dp"
+    android:paddingRight="@dimen/keyline_1_minus_8dp"
+    android:text=""
+    android:textColor="@color/body_text_2"
+    android:textSize="@dimen/shot_action_text_size" />

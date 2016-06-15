@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+    <changelogversion changeDate="29/07/2015" versionName="3.3.0">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Click Home title quick scroll to top.]]>
+            <![CDATA[<b><font color=red>New!</font></b> Drawer always available.]]>
+            <![CDATA[<b><font color=red>New!</font></b> Improve images loading performance.]]>
+            <![CDATA[ UI bug fix and improvement .]]>
+        </changelogtext>
+    </changelogversion>
+
+
+    <changelogversion changeDate="10/06/2015" versionName="3.0.0">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Improve images loading performance.]]>
+            <![CDATA[ UI bug fix and improvement .]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="15/05/2015" versionName="2.5.0">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> See following shots..]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="08/02/2015" versionName="2.2.0">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> More colorful theme.]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="01/02/2015" versionName="2.0">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Black theme to save power on AMOLED screens.]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="28/01/2015" versionName="1.9">
+        <changelogtext>
+            <![CDATA[ UI bug fix and improvement .]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="23/01/2015" versionName="1.8">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Widget to show the latest shots on your home screen.]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ UI improvement .]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="22/01/2015" versionName="1.6">
+        <changelogtext>
+            <![CDATA[ UI improvement .]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="19/01/2015" versionName="1.5">
+        <changelogtext>
+            <![CDATA[ Better performance for display gif animation.]]>
+        </changelogtext>
+
+        <changelogtext>
+            <![CDATA[ Show download progress when view shot image and attached images.]]>
+        </changelogtext>
+
+        <changelogtext>
+            <![CDATA[ Fix some bugs.]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="17/01/2015" versionName="1.4">
+        <changelogtext>
+            <![CDATA[ add Russian and Chinese language support.]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ Fix some bugs.]]>
+        </changelogtext>
+    </changelogversion>
+
+
+    <changelogversion changeDate="16/01/2015" versionName="1.2">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Better tablet layout for view shot and user]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ Fix some bugs.]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="13/01/2015" versionName="1.1">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Better tablet layout]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ Floating button to create shot and bucket.]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="10/01/2015" versionName="1.0">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Zoom in/out image]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ Fix some bugs.]]>
+        </changelogtext>
+    </changelogversion>
+
+
+    <changelogversion changeDate="09/01/2015" versionName="0.99 β">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Improve Search function.]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ Fix some bugs.]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="08/01/2015" versionName="0.9 β">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Search shot.]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ Fix can not loading more data bugs.]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ Fix like shot status bug.]]>
+        </changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="06/01/2015" versionName="0.5 β">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Create/Delete shot attachment.]]>
+        </changelogtext>
+        <changelogtext>
+            <![CDATA[ Fix some bugs.]]>
+        </changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="05/01/2015" versionName="0.4 β">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Swipe right & left to edit & delete <b><font color=#ff9800>SHOT/BUCKET</font>.</b>]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="04/01/2015" versionName="0.2 β">
+        <changelogtext>
+            <![CDATA[<b><font color=red>New!</font></b> Create <b><font color=#ff9800>SHOT</font></b>]]>
+        </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="03/01/2015" versionName="0.1 β">
+        <changelogtext>First β release</changelogtext>
+    </changelogversion>
+
+</changelog>

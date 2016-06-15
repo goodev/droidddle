@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    tools:context="org.goodev.droidddle.frag.shot.ShotBucketFragment">
+
+    <org.goodev.droidddle.widget.QuickReturnRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/keyline_1"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/ic_info_48dp"
+        android:text="@string/search_empty_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2">
+
+    </TextView>
+
+    <org.goodev.droidddle.widget.ProgressView
+        android:id="@+id/loading"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

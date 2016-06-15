@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter_time"
+        android:icon="@drawable/ic_action_filter"
+        android:orderInCategory="101"
+        android:title="@string/action_filter_time"
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/action_filter_time_group"
+                android:checkableBehavior="single"
+                android:title="@string/action_filter_time">
+                <item
+                    android:id="@+id/time_filter_now"
+                    android:checked="true"
+                    android:title="@string/time_filter_now" />
+                <item
+                    android:id="@+id/time_filter_week"
+                    android:title="@string/time_filter_week" />
+                <item
+                    android:id="@+id/time_filter_month"
+                    android:title="@string/time_filter_month" />
+                <item
+                    android:id="@+id/time_filter_year"
+                    android:title="@string/time_filter_year" />
+                <item
+                    android:id="@+id/time_filter_ever"
+                    android:title="@string/time_filter_every" />
+            </group>
+        </menu>
+    </item>
+</menu>

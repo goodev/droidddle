@@ -1,0 +1,74 @@
+<FrameLayout android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="org.goodev.droidddle.ShotActivity"
+    tools:ignore="MergeRootFrame">
+    <!--
+
+        <fragment
+            android:id="@+id/fragment_shot"
+            android:name="org.goodev.droidddle.frag.ShotFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_shot"
+            / -->
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/tab_height"></FrameLayout>
+
+    <org.goodev.droidddle.widget.TouchInterceptionFrameLayout
+        android:id="@+id/scroll_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:windowBackground">
+        <!--
+                <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+                    android:id="@+id/scroll_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:fillViewport="true"
+                    android:overScrollMode="never"
+                    android:scrollbars="none">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?actionBarSize"
+            android:clipChildren="false"
+            android:orientation="vertical">
+
+            <org.goodev.droidddle.widget.SlidingTabLayout
+                android:id="@+id/sliding_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_height"
+                android:background="@color/primary_color" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="50dp" />
+        </LinearLayout>
+        <!--
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView> -->
+    </org.goodev.droidddle.widget.TouchInterceptionFrameLayout>
+
+
+    <include layout="@layout/gradient_header" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:animateLayoutChanges="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:theme="?toolbarTheme" />
+</FrameLayout>

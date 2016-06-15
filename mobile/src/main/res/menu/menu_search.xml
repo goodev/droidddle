@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.goodev.droidddle.SearchActivity">
+
+    <item
+        android:id="@+id/action_search_order"
+        android:orderInCategory="100"
+        android:title="@string/action_search_order"
+        app:actionLayout="@layout/search_sort_layout"
+        app:showAsAction="always" />
+
+
+    <item
+        android:enabled="false"
+        android:orderInCategory="100"
+        android:title=""
+        app:actionLayout="@layout/empty_menu_layout"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="101"
+        android:title="@string/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+    <!--
+    <item
+        android:id="@+id/action_switch_search"
+        android:enabled="true"
+        android:orderInCategory="110"
+        android:title="@string/switch_to_color_search"
+        android:icon="@drawable/ic_action_switch"
+        app:showAsAction="always" / -->
+</menu>

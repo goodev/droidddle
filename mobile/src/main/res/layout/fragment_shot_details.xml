@@ -1,0 +1,166 @@
+<FrameLayout android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.goodev.droidddle.ShotDetailsActivity"
+    tools:ignore="MergeRootFrame">
+    <!--
+
+        <fragment
+            android:id="@+id/fragment_shot"
+            android:name="org.goodev.droidddle.frag.ShotFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_shot"
+            / -->
+    <ScrollView android:id="@+id/scroll"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="org.goodev.droidddle.frag.ShotFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/keyline_1_minus_8dp">
+
+            <org.goodev.droidddle.drawee.TranslateDraweeView
+                android:id="@+id/shot_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                fresco:actualImageScaleType="centerCrop"
+                fresco:viewAspectRatio="1.33" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/user_image"
+                android:layout_width="@dimen/speaker_image_size"
+                android:layout_height="@dimen/speaker_image_size"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/shot_image"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="@dimen/keyline_1_minus_8dp"
+                android:layout_marginRight="@dimen/keyline_1_minus_8dp"
+                android:layout_marginTop="@dimen/keyline_1_minus_8dp"
+                android:clickable="true"
+                android:focusable="true"
+                fresco:actualImageScaleType="centerCrop"
+                fresco:placeholderImage="@drawable/person_image_empty"
+                fresco:roundAsCircle="true"
+                fresco:roundingBorderWidth="1dp"
+                fresco:roundingBorderColor="#3ddd" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/user_image"
+                android:layout_below="@id/shot_image"
+                android:layout_toRightOf="@id/user_image"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/shot_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_name"
+                android:layout_marginRight="@dimen/keyline_1_minus_8dp"
+                android:layout_toRightOf="@id/user_image"
+                android:minEms="4"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/shot_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_name"
+                android:layout_marginLeft="@dimen/keyline_1_minus_12dp"
+                android:layout_marginRight="@dimen/keyline_1_minus_12dp"
+                android:layout_toRightOf="@id/shot_date"
+                android:drawableLeft="@drawable/ic_shot_views"
+                android:drawablePadding="@dimen/keyline_1_minus_12dp"
+                android:minEms="4"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <!--
+            <TextView
+                android:id="@+id/shot_description"
+                style="@style/TextBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_image"
+                android:autoLink="all"
+                android:ellipsize="end"
+                android:padding="@dimen/keyline_1_minus_8dp"
+                android:textColor="@color/body_text_1"
+                /-->
+            <Button
+                android:id="@+id/shot_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/shot_action_height"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/shot_image"
+                android:layout_margin="@dimen/keyline_1_minus_8dp"
+                android:background="@drawable/bg_comment_button"
+                android:drawableLeft="@drawable/ic_shot_comment"
+                android:gravity="center"
+                android:minWidth="52dp"
+                android:paddingLeft="@dimen/keyline_1_minus_8dp"
+                android:paddingRight="@dimen/keyline_1_minus_8dp"
+                android:text=""
+                android:textColor="@color/body_text_2"
+                android:textSize="@dimen/shot_action_text_size" />
+            <!--
+            <org.goodev.droidddle.widget.SlidingTabLayout
+                android:id="@+id/sliding_tabs"
+                android:layout_below="@id/user_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_height"
+                android:background="@color/primary_color" /> -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_image"
+                android:orientation="vertical">
+
+
+                <com.astuetz.PagerSlidingTabStrip
+                    android:id="@+id/sliding_tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dip"
+                    android:background="@color/primary_color"
+                    android:textColor="@color/body_text_1"
+                    app:pstsIndicatorColor="@color/tab_indicator"
+                    app:pstsTabBackground="@color/body_text_2_inverse" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green_light"
+                    android:minHeight="50dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <include layout="@layout/gradient_header" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:theme="?toolbarTheme" />
+</FrameLayout>

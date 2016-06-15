@@ -1,0 +1,162 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content1"
+        android:paddingTop="@dimen/status_bar_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:elevation="2dp"
+            android:translationZ="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:background="?attr/colorPrimary"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:theme="?toolbarTheme"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/Theme.AppCompat.Light" />
+
+            <LinearLayout
+                android:background="?attr/colorPrimary"
+                android:id="@+id/filter_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/keyline_1_minus_8dp"
+                android:paddingRight="@dimen/keyline_1_minus_8dp">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/shots_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/abc_spinner"
+                    android:gravity="center_vertical|right"
+                    android:minHeight="@dimen/home_filter_min_height"
+                    android:singleLine="true"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_in"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="2" />
+
+                <TextView
+                    android:id="@+id/shots_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/keyline_1"
+                    android:layout_marginRight="@dimen/keyline_1"
+                    android:background="@drawable/abc_spinner"
+                    android:gravity="center_vertical|right"
+                    android:minHeight="@dimen/home_filter_min_height"
+                    android:singleLine="true"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_in"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:id="@+id/filter_padding1"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="2" />
+
+                <TextView
+                    android:id="@+id/shots_timeframe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/abc_spinner"
+                    android:gravity="center_vertical|right"
+                    android:minHeight="@dimen/home_filter_min_height"
+                    android:singleLine="true"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_in"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_action_add"
+            app:backgroundTint="?attr/colorPrimary"
+            app:borderWidth="0dp"
+            app:layout_behavior="org.goodev.design.ScrollAwareFABBehavior" />
+        <!--
+        <com.melnykov.fab.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_action_add"
+                app:fab_colorNormal="?navdrawerTintColor"
+                app:fab_colorPressed="?colorAccent"
+                / -->
+    </android.support.design.widget.CoordinatorLayout>
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         If you're not building against API 17 or higher, use
+         android:layout_gravity="left" instead. -->
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container.
+    <fragment
+            android:id="@+id/navigation_drawer"
+            android:name="org.goodev.droidddle.NavigationDrawerFragment"
+            android:layout_width="@dimen/navdrawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            tools:layout="@layout/fragment_navigation_drawer"/>-->
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="@dimen/navdrawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/drawer_menu" />
+
+</android.support.v4.widget.DrawerLayout>

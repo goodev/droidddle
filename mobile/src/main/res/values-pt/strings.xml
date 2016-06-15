@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droidddle</string>
+    <string name="navigation_drawer_open">Abrir barra lateral</string>
+    <string name="navigation_drawer_close">Fechar barra lateral</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_like">Curtir</string>
+    <string name="oauth_canceled">OAuth cancelado</string>
+    <string name="prefile_username">%1$s (%2$s)</string>
+    <string name="prefile_followers">"Seguidores %1$s"</string>
+    <string name="prefile_followings">"Seguindo %1$s"</string>
+    <string name="prefile_shots">"Shots %1$s"</string>
+    <string name="navdrawer_item_home">Início</string>
+    <string name="navdrawer_item_profile">Meu perfil</string>
+    <string name="navdrawer_item_shots">Shots</string>
+    <string name="navdrawer_item_buckets">Baldes</string>
+    <string name="navdrawer_item_projects">Projetos</string>
+    <string name="navdrawer_item_teams">Times</string>
+    <string name="navdrawer_item_likes">Curtidas</string>
+    <string name="navdrawer_item_followers">Seguidores</string>
+    <string name="navdrawer_item_settings">Configurações</string>
+    <string name="navdrawer_item_profile_title">Meu…</string>
+    <string name="title_activity_shot_details">Detalhes</string>
+    <string name="add_comment_hit">Adicionar um comentário</string>
+    <string name="default_location">Terra</string>
+    <string name="shot_rebound_source">REBOTE DE …</string>
+    <plurals name="shot_count">
+        <item quantity="one">%s shot</item>
+        <item quantity="other">%s shots</item>
+    </plurals>
+    <plurals name="follower_count">
+        <item quantity="one">%s seguidor</item>
+        <item quantity="other">%s seguidores</item>
+    </plurals>
+    <plurals name="following_count">
+        <item quantity="one">%s seguindo</item>
+        <item quantity="other">%s seguindo</item>
+    </plurals>
+    <plurals name="bucket_count">
+        <item quantity="one">%s balde</item>
+        <item quantity="other">%s baldes</item>
+    </plurals>
+    <plurals name="team_count">
+        <item quantity="one">%s time</item>
+        <item quantity="other">%s times</item>
+    </plurals>
+    <plurals name="member_count">
+        <item quantity="one">%s membro</item>
+        <item quantity="other">%s membros</item>
+    </plurals>
+    <plurals name="like_count">
+        <item quantity="one">%s curtida</item>
+        <item quantity="other">%s curtidas</item>
+    </plurals>
+    <string name="title_activity_user">Detalhes</string>
+    <string name="cannot_handle_map">Não há app de mapa em seu dispositivo</string>
+    <string name="action_follow">Seguir</string>
+    <string name="action_unfollow">Não seguir</string>
+    <string name="title_activity_user_items">Usuário</string>
+    <string name="title_user_shot">%s\'s shots</string>
+    <string name="title_user_project">%s\'s projetos</string>
+    <string name="title_user_follower">%s\'s seguidores</string>
+    <string name="title_user_following">%s\'s seguindo</string>
+    <string name="title_user_bucket">%s\'s baldes</string>
+    <string name="title_user_team">%s\'s times</string>
+    <string name="title_user_like">%s\'s curtidas</string>
+    <string name="title_activity_team">Detalhes do time</string>
+    <string name="title_activity_project_shot">{%s}\'s shots do projeto</string>
+    <string name="title_activity_bucket_shot">{%s}\'s shots do balde</string>
+    <string name="comment_added">Comentário adicionado</string>
+    <string name="sending">Enviando…</string>
+    <string name="general_error">Erro, por favor, tente novamente!</string>
+    <string name="comment_options">Opções de comentários</string>
+    <string name="comment_options_like">Curtir isso</string>
+    <string name="comment_options_like_why">Curtir &amp; Descurtir?</string>
+    <string name="comment_options_unlike">Descurtir isto</string>
+    <string name="comment_options_edit">Editar comentário</string>
+    <string name="comment_options_delete">Deletar comentário</string>
+    <string name="comment_options_copy">Copiar texto do comentário</string>
+    <string name="comment_options_who_likes">Ver quem curtiu isso</string>
+    <string name="text_copied_to_clipboard">Texto copiado para a área de transferência</string>
+    <string name="like_comment_success">Comentário curtido</string>
+    <string name="unlike_comment_success">Comentário descurtido</string>
+    <string name="title_like_unlike_comment"><![CDATA[Porque curtir e descurtir?]]></string>
+    <string name="message_like_unlike_comment">Por conta do limite da API do Dribbble de 60 pedidos por minuto, e por cada comentário precisar de um pedido para checar se você o curtiu ou não. Se um shot tem muitos comentários, esse limite será atingido rapidamente.\nEntão apenas selecione Curtir ou Descurtir. Você pode fazê-lo diversas vezes em um comentário.</string>
+    <string name="got_it">Entendi</string>
+    <string name="delete_comment_success">Comentário deletado</string>
+    <string name="title_activity_edit_comment">Editar comentário</string>
+    <string name="action_send">Enviar</string>
+    <string name="comment_updated">Comentário atualizado</string>
+    <string name="user_label">Droidddle</string>
+    <string name="default_empty_text">Sem dados.</string>
+    <string name="like_shot_success">Shot curtido.</string>
+    <string name="unlike_shot_success">Shot descurtido.</string>
+    <string name="title_share_shot_with_name">%1$s por @%2$s em @dribbble com @droidddle</string>
+    <string name="title_share_shot">%1$s em @dribbble com @droidddle</string>
+    <string name="share_shot_dialog_title">Compartilhar %s</string>
+    <string name="title_my_shots">Meus shots</string>
+    <string name="title_my_buckets">Meus baldes</string>
+    <string name="title_my_projects">Meus projetos</string>
+    <string name="title_my_likes">Minhas curtidas</string>
+    <string name="title_my_teams">Meus times</string>
+    <string name="title_activity_view_image">Imagem</string>
+    <string name="add_action_shot">Criar shot</string>
+    <string name="add_action_bucket">Criar balde</string>
+    <string name="title_activity_create_bucket">Criar balde</string>
+    <string name="hint_bucket_name">Nome (obrigatório)</string>
+    <string name="hint_bucket_description">Descrição</string>
+    <string name="bucket_created">Balde criado.</string>
+    <string name="action_add_to_bucket">Adicionar ao balde</string>
+    <string name="title_activity_add_to_bucket">Pegar um balde</string>
+    <string name="shot_add_to_bucket_success">Shot foi adicionado ao balde.</string>
+    <string name="shot_removed_from_bucket">Shot deletado deste balde.</string>
+    <string name="bucket_removed">Balde foi deletado.</string>
+    <string name="bucket_removed_tips">Balde deletado.</string>
+    <string name="shot_removed">Shot foi deletado.</string>
+    <string name="title_activity_create">Criar...</string>
+    <string name="download">Ir para download</string>
+    <string name="download_from_play_title">App precisa atualizar</string>
+    <string name="download_from_play_message">Esta versão não pode mais funcionar. Por favor, atualize no Google Play.</string>
+    <string name="check_network">Cheque a conexão do teu dispositivo.</string>
+    <string name="about_summary">Versão %1$s</string>
+    <string name="back_again_to_exit">Aperte voltar novamente para sair.</string>
+    <string name="sdcard_not_available">SDCard não disponível. Impossível baixar arquivo.</string>
+    <string name="download_tips">Baixar em: %1$s</string>
+    <string name="tap_to_login">Toque para entrar</string>
+    <string name="hint_shot_tags">Tags, separadas por vírgulas</string>
+    <string name="hint_shot_title">Título (obrigatório)</string>
+    <string name="hint_shot_description">Descrição</string>
+    <string name="select_image_label">Selecione uma imagem</string>
+    <string name="shot_updated">Shot foi atualizado.</string>
+    <string name="shot_created">Shot foi criado.</string>
+    <string name="creating">Enviando...</string>
+    <string name="internal_storage">Armazenamento interno</string>
+    <string name="crop_image">Cortar imagem</string>
+    <string name="title_activity_about">Sobre droidddle</string>
+    <string name="luancher_icon_thanks">Créditos ao Jovie Brett ( https://dribbble.com/bretbardolees ) pelo lindo ícone.</string>
+    <string name="translate_credit">Tradução creditada</string>
+    <string name="title_activity_create_shot">Criar shot</string>
+    <string name="discard_tips">Você quer descartar isto?</string>
+    <string name="shot_image_file_missing">Por favor, selecione a imagem do shot.</string>
+    <string name="create_shot_tips">Há assincronia na criação de um shot e pode levar alguns minutos para poder vê-lo.</string>
+    <string name="change_log_text">Lista de mudanças</string>
+    <string name="title_activity_update_bucket">Editar balde</string>
+    <string name="title_activity_update_shot">Editar shot</string>
+    <string name="bucket_updated">Balde atualizado.</string>
+    <string name="shot_removed_tips">Shot deletado.</string>
+    <string name="action_add_attachment">Adicionar anexo</string>
+    <string name="attach_file_is_missing">Arquivo faltando.</string>
+    <string name="attach_file_is_large">Arquivo é maior que 10Mb.</string>
+    <string name="upload_attachment_title">Criar um anexo</string>
+    <string name="upload_attachment_message">Você quer subir %1$s como um anexo?</string>
+    <string name="create_attachment_success">Anexo criado.</string>
+    <string name="creating_attachment">Subindo...\nOBS: Há assincronia na criação de um anexo e pode levar alguns minutos para poder vê-lo.</string>
+    <string name="pick_file_tips">Selecione um arquivo de anexo.</string>
+    <string name="delete_attach_dialog_title">Deletar anexo</string>
+    <string name="delete_attach_dialog_message">Você quer deletar este anexo?</string>
+    <string name="delete">deletar</string>
+    <string name="attach_file_deleted">Anexo foi deletado.</string>
+    <string name="deleting">Deletando...</string>
+    <string name="comments_text">Comentários (%s)</string>
+    <string name="attachment_text">Anexos (%s)</string>
+    <string name="likes_text">Curtidas (%s)</string>
+    <string name="buckets_text">Baldes (%s)</string>
+    <string name="projects_text">Projetos</string>
+    <string name="rebounds_text">Rebotes (%s)</string>
+    <string name="opening">Abrindo...</string>
+    <string name="title_activity_search">Pesquisar shots</string>
+    <string name="action_search">Pesquisar shot</string>
+    <string name="search_hint">Pesquisar shot</string>
+    <string name="launch_user_failed">Não foi possível obter informações do usuário</string>
+    <string name="action_search_order">Ordem dos resultados</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Deletar</string>
+    <string name="dialog_delete_title">Deletar</string>
+    <string name="dialog_delete_shot_msg">Você quer deletar este shot?</string>
+    <string name="dialog_delete_bucket_msg">Você quer deletar este balde?</string>
+    <string name="action_remove_from_bucket">Remover do balde</string>
+    <string name="twitter">Twitter</string>
+    <string name="www">Web</string>
+    <string name="followers_text">Seguidores (%s)</string>
+    <string name="followings_text">Seguindo (%s)</string>
+    <string name="projects_text_with_number">Projetos (%s)</string>
+    <string name="teams_text">Times (%s)</string>
+    <string name="pref_title_send_by_shot">Adicionar assinatura no shot</string>
+    <string name="pref_description_send_by_shot">Adicionar \"enviado por @droidddle\" na descrição do shot.</string>
+    <string name="pref_description_send_by_comment">Adicionar \"enviado por @droidddle\" no comentário.</string>
+    <string name="pref_title_send_by_comment">Adicionar assinatura no comentário</string>
+    <string name="send_by_text">— enviado por @droidddle</string>
+    <string name="members_text">Membros (%s)</string>
+    <string name="pick_image_error">A imagem selecionada não pode ser carregada. Por favor, tente novamente.</string>
+    <string name="pref_title_about_like">Sobre curtir e comentar</string>
+    <string name="message_like_status">Por conta do limite da API do Dribbble de 60 pedidos por minuto, e por cada shot/comentário precisar de um pedido para checar se você o curtiu ou não, quando tu estás a navegar pelos shots esse limite será atingido rapidamente, pois não pode carregar mais shots.\n\nEntão não checamos o status do shot/comentário. Se tu queres curtir um shot, apenas clique no botão correspondente; e então clique novamente para desfazer a ação.</string>
+    <string-array name="search_sort_entry">
+        <item>Populares</item>
+        <item>Últimos</item>
+        <item>Usuario</item>
+    </string-array>
+    <string-array name="shots_sort_entry">
+        <item>Populares</item>
+        <item>Recentes</item>
+        <item>Mais vistos</item>
+        <item>Mais comentados</item>
+    </string-array>
+    <string-array name="shots_timeframe_entry">
+        <item>Agora</item>
+        <item>Semana passada</item>
+        <item>Mês passado</item>
+        <item>Ano passado</item>
+        <item>Todos os tempos</item>
+    </string-array>
+    <string-array name="shots_list_entry">
+        <item>Shots</item>
+        <item>Times de shots</item>
+        <item>Estréias</item>
+        <item>Destaques</item>
+        <item>Rebotes</item>
+        <item>GIFs animadas</item>
+        <item>Com anexos</item>
+    </string-array>
+    <string-array name="shot_details_pager_entry">
+        <item>Comentários</item>
+        <item>Tags</item>
+        <item>Anexos</item>
+        <item>Baldes</item>
+        <item>Curtidas</item>
+        <item>Projeto</item>
+        <item>Time</item>
+        <item>Rebote</item>
+    </string-array>
+    <string name="pref_title_orientation">Orientação da tela</string>
+    <string-array name="pref_orientation_list_titles">
+        <item>Auto (sistema de acompanhamento)</item>
+        <item>Retrato</item>
+        <item>Paisagem</item>
+    </string-array>
+    <string name="pref_title_upgrade_pro">Atualizar para o Pro</string>
+    <string name="pref_description_upgrade_pro">A versão Pro deste app possui funções Pro.</string>
+    <string name="pref_title_translate">Ajude a traduzir esse APP</string>
+    <string name="pref_title_rate">Dê cinco estrelas no Play</string>
+    <string name="pref_title_about">Sobre</string>
+    <string name="translate_title">Traduzir</string>
+    <string name="translate_button">Abrir navegador</string>
+    <string name="translate_message">Nós usamos o serviço OneSkyApp para traduzir esse app. Abra https://goodev.oneskyapp.com no seu navegador. Lá há dois projetos: um do Chinês para sua língua e outro do Inglês para sua língua.</string>
+    <string name="about_droidddle"><![CDATA[
+Droidddle é um cliente do Dribbble.com.
+★★★★★ Funcionalidades: ★★★★★
+* Procurar por shots no Dribbble
+* Criar shot no Dribbble
+* Navegar, Comentar, Curtir shots no Dribbble
+* Usar Zoom na imagem
+* Ver GIFs animadas
+* Seguir Jogadores no Dribbble
+* Criar balde no Dribbble
+* Compartilhar shot no Dribbble
+* E muitas outras funções esperando por você para explorá-las
+
+Se você curtiu, por favor avalie ★★★★★. Obrigado!!!!!
+        ]]></string>
+    <string name="download_service">Serviço de download de imagem</string>
+    <string name="title_activity_manage_space">Administrar dados</string>
+    <string name="pref_title_clear_cache_data">Limpar dados de cache</string>
+    <string name="pref_description_clear_cache_data">Limpar dados de cache do app ( %1$s )</string>
+    <string name="pref_title_clear_download_image_data">Limpar imagem do shot</string>
+    <string name="pref_description_clear_download_image_data">Limpar todas as imagens de shots baixadas ( %1$s )</string>
+    <string name="dialog_delete_file">Deletando arquivos...</string>
+    <string name="dialog_delete_message">Você quer deletar esses arquivos?</string>
+    <string name="dialog_title_clear_images">Deletar imagens de shots</string>
+    <string name="dialog_message_clear_images">Você quer limpar todas as imagens de shots?</string>
+    <string name="dialog_title_clear_cache">Deletar cache</string>
+    <string name="dialog_message_clear_cache">Você quer deletar todos os arquivos de cache?</string>
+    <string name="pref_title_manage_space">Organizar espaço</string>
+</resources>
