@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="org.goodev.droidddle.AboutActivity">
     <item
+        android:visible="false"
         android:id="@+id/action_search"
         android:icon="@drawable/ic_search"
         android:orderInCategory="100"

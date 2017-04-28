@@ -7,7 +7,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.3.1'
         classpath 'me.tatarka:gradle-retrolambda:3.1.0'
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -18,8 +18,8 @@ buildscript {
 ext {
     compileSdkVersion = 23
     buildToolsVersion = "23"
-    versionCode = 356
-    versionName = "3.5.6"
+    versionCode = 360
+    versionName = "3.6.0"
 }
 
 allprojects {

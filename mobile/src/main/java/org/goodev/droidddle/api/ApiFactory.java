@@ -305,9 +305,9 @@ public class ApiFactory {
             RequestInterceptor requestInterceptor = new RequestInterceptor() {
                 @Override
                 public void intercept(RequestFacade request) {
-                    request.addHeader("Accept", "application/vnd.dribbble.v1.html+json");
-                    request.addHeader("Accept", "application/vnd.dribbble.v1.text+json");
-                    request.addHeader("Authorization", " Bearer " + token);
+//                    request.addHeader("Accept", "application/vnd.dribbble.v1.html+json");
+//                    request.addHeader("Accept", "application/vnd.dribbble.v1.text+json");
+                    request.addHeader("Authorization", "Bearer " + token);
                     request.addQueryParam("per_page", String.valueOf(muzei ? ApiService.PAGE_NUM : ApiService.PAGE_NUM));
                     //TODO how to using cache when offline
                     if (ConnUtils.isNetworkAvaliable(context)) {
@@ -384,6 +384,7 @@ public class ApiFactory {
             }
         } catch (JSONException e) {
             e.printStackTrace();
+            Log.e("Api", "getErrorMessage: "+text );
         }
         if (response.getStatus() > 500) {
             return App.getContext().getString(R.string.check_network);

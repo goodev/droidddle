@@ -70,6 +70,7 @@ android {
 //        incremental true
         javaMaxHeapSize "2g"
     }
+    buildToolsVersion '25.0.0'
 }
 
 retrolambda {
